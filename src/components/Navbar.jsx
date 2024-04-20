@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -15,7 +16,7 @@ const Navbar = () => {
           <button class=" px-2 py-1 rounded-md text-gray-500">
             Virtual CTO
           </button>
-          <button class=" px-2 py-1 rounded-md text-gray-500">Work</button>
+          <button class=" px-2 py-1 rounded-md text-gray-500">About</button>
           <button class=" px-2 py-1 rounded-md text-gray-500">Contact</button>
           <button class="border px-2 py-1 rounded-md">
             <svg
@@ -33,12 +34,11 @@ const Navbar = () => {
               />
             </svg>
           </button>
-          <a
-            href="#"
+          <Link to="/register"><a
             class="rounded-md bg-gradient-to-br from-blue-300 to-blue-200 px-3 py-1.5 font-dm text-sm font-medium text-white shadow-md shadow-blue-400/50 transition-transform duration-200 ease-in-out hover:scale-[1.03]"
           >
-            Our Services
-          </a>{" "}
+            Regestration
+          </a></Link>{" "}
           
         </div>
       </div>
