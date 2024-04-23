@@ -8,11 +8,13 @@ import Collaboration from '../components/Collaboration'
 import Footer from '../components/Footer'
 import Challengescard from '../components/Challengescard'
 import Weoffer from '../components/Weoffer'
+import Homenewcard from '../components/Homenewcard'
 const Home = () => {
   return (
     <div>
       <Navbar />
       <Hero />
+      <Homenewcard />
       <Challengescard />
       <Weoffer />
       {/* <Collaboration /> */}

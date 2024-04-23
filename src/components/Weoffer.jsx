@@ -2,7 +2,7 @@ import React from 'react'
 
 const Weoffer = () => {
   return (
-    <div className='px-20'>
+    <div className='md:px-20'>
 <div class="pb-16">
         <div class="container">
             {/* <div class="mx-auto max-w-4xl sm:text-center">
