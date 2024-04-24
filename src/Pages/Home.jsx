@@ -9,6 +9,7 @@ import Footer from '../components/Footer'
 import Challengescard from '../components/Challengescard'
 import Weoffer from '../components/Weoffer'
 import Homenewcard from '../components/Homenewcard'
+import Placement from '../components/Placement'
 const Home = () => {
   return (
     <div>
@@ -16,7 +17,8 @@ const Home = () => {
       <Hero />
       <Homenewcard />
       <Challengescard />
-      <Weoffer />
+      <Placement />
+      {/* <Weoffer /> */}
       {/* <Collaboration /> */}
       <Testimonial />
       <FAQ />
