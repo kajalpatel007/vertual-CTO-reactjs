@@ -3,6 +3,9 @@ import Home from "./Pages/Home"
 import Contact from "./Pages/Contactus"
 import Signup from "./Pages/Signup"
 import About from "./Pages/About"
+import AdminDashboard from "./Pages/AdminDashboard"
+import UserDashboard from "./components/UserDashboard"
+import ImageUpload from "./Pages/Imageupload"
 
 function App() {
   
@@ -16,6 +19,12 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/register" element={<Signup /> } />
       
+      <Route path="/upload" element={<Signup /> } />
+      <Route path='/login' element={<Login />} />
+      <Route path='/admindashboard' element={<AdminDashboard />} />
+      <Route path='/userdashboard' element={<UserDashboard />} />
+      <Route path='/imageupload' element={<ImageUpload />} />
+
     </Routes>
     
     </>
