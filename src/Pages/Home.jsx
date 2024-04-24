@@ -9,14 +9,17 @@ import Footer from '../components/Footer'
 import Challengescard from '../components/Challengescard'
 import Weoffer from '../components/Weoffer'
 import ServiceHome from '../components/ServiceHome'
-
+import Homenewcard from '../components/Homenewcard'
+import Placement from '../components/Placement'
 const Home = () => {
   return (
     <div>
       <Navbar />
       <Hero />
+      <Homenewcard />
       <Challengescard />
-      <Weoffer />
+      <Placement />
+      {/* <Weoffer /> */}
       {/* <Collaboration /> */}
       <Testimonial />
       <FAQ />

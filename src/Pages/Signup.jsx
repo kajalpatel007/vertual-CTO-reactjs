@@ -94,6 +94,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 // import ImageUpload from './Imageupload'
 import Navbar from '../components/Navbar'
+import React from 'react'
 
 const Signup = () => {
   
@@ -302,6 +303,8 @@ const Signup = () => {
             </div>
           </form>
     </div>
+  return (
+    <div>Signup</div>
   )
 }
 

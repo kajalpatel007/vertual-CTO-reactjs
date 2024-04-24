@@ -8,7 +8,7 @@ const Navbar = () => {
         <div class="flex items-center">
           <h2 class="font-bold text-2xl text-blue-300">GenNext</h2>
         </div>
-       
+
         <div class="flex items-center gap-2">
           <button class=" px-2 py-1 rounded-md text-gray-500">
             Production
@@ -45,6 +45,16 @@ const Navbar = () => {
            AdminPanel
           </a></Link>{" "}
           
+          <Link to="/register">
+            <a class="rounded-md bg-gradient-to-br from-blue-300 to-blue-200 px-3 py-1.5 font-dm text-sm font-medium text-white shadow-md shadow-blue-400/50 transition-transform duration-200 ease-in-out hover:scale-[1.03]">
+              Regestration
+            </a>
+          </Link>{" "}
+          <Link to="/admindashboard">
+            <a class="rounded-md bg-gradient-to-br from-blue-300 to-blue-200 px-3 py-1.5 font-dm text-sm font-medium text-white shadow-md shadow-blue-400/50 transition-transform duration-200 ease-in-out hover:scale-[1.03]">
+              AdminPanel
+            </a>
+          </Link>{" "}
         </div>
       </div>
     </div>
