@@ -8,6 +8,7 @@ import Collaboration from '../components/Collaboration'
 import Footer from '../components/Footer'
 import Challengescard from '../components/Challengescard'
 import Weoffer from '../components/Weoffer'
+import ServiceHome from '../components/ServiceHome'
 import Homenewcard from '../components/Homenewcard'
 import Placement from '../components/Placement'
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
       <Testimonial />
       <FAQ />
      <Contact />
+     <ServiceHome/>
      <Footer />
     </div>
   )
