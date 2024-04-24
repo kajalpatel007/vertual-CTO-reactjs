@@ -8,6 +8,8 @@ import Collaboration from '../components/Collaboration'
 import Footer from '../components/Footer'
 import Challengescard from '../components/Challengescard'
 import Weoffer from '../components/Weoffer'
+import ServiceHome from '../components/ServiceHome'
+
 const Home = () => {
   return (
     <div>
@@ -19,6 +21,7 @@ const Home = () => {
       <Testimonial />
       <FAQ />
      <Contact />
+     <ServiceHome/>
      <Footer />
     </div>
   )
