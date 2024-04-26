@@ -12,7 +12,7 @@ const Placement = () => {
       <div className="relative overflow-hidden container m-auto pt-10 pb-32 space-y-24 mt-2">
         <div className="relative">
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
-            <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
+            <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-7 lg:px-0 ">
               <div>
                 <div>
                   <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-400">
@@ -95,7 +95,7 @@ const Placement = () => {
 
         <div className="relative container m-auto">
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
-            <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2">
+            <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-4 lg:px-0 lg:col-start-2">
               <div>
                 <div>
                   <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-400">
@@ -180,7 +180,7 @@ const Placement = () => {
 
         <div className="relative">
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
-            <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
+            <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-7 lg:px-0 ">
               <div>
                 <div>
                   <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-400">

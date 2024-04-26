@@ -2,7 +2,7 @@ import React from "react";
 
 const Challengescard = () => {
   return (
-    <div className="pb-16">
+    <div className="pb-16 pt-10">
       <div class="pb-8">
         {/* <div class="flex felx-col items-center justify-center">
     <span
