@@ -1,6 +1,5 @@
 import React from "react";
 import { placementaccordian, proffessionalaccordian } from "../data/data";
-// import { placementaccordian, proffessionalaccordian } from "../../data/data";
 
 const Placement = () => {
   return (
@@ -73,14 +72,6 @@ const Placement = () => {
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                {/* <img
-                  loading="lazy"
-                  width="647"
-                  height="486"
-                  className=" rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0  lg:max-w-none"
-                  style={{ color: "transparent" }}
-                  src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137"
-                /> */}
                 <img
               src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137"
               alt="Product screenshot"
@@ -157,15 +148,6 @@ const Placement = () => {
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                {/* <img
-                  alt="Inbox user interface"
-                  loading="lazy"
-                  width="647"
-                  height="486"
-                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:max-w-none"
-                  style={{ color: "transparent" }}
-                  src="https://images.unsplash.com/photo-1599134842279-fe807d23316e"
-                /> */}
                 <img
               src="https://images.unsplash.com/photo-1599134842279-fe807d23316e"
               alt="Product screenshot"
@@ -192,7 +174,7 @@ const Placement = () => {
                       stroke="currentColor"
                       aria-hidden="true"
                       className="h-8 w-8 text-white"
-                    >
+                    > 
                       <path
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -240,14 +222,6 @@ const Placement = () => {
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                {/* <img
-                  loading="lazy"
-                  width="647"
-                  height="486"
-                  className=" rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0  lg:max-w-none"
-                  style={{ color: "transparent" }}
-                  src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137"
-                /> */}
                 <img
               src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137"
               alt="Product screenshot"

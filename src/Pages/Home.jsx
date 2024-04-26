@@ -16,15 +16,15 @@ const Home = () => {
     <div>
       <Navbar />
       <Hero />
+      <ServiceHome/>
       <Homenewcard />
-      <Challengescard />
       <Placement />
+      <Challengescard />
       {/* <Weoffer /> */}
       {/* <Collaboration /> */}
       <Testimonial />
       <FAQ />
      <Contact />
-     <ServiceHome/>
      <Footer />
     </div>
   )

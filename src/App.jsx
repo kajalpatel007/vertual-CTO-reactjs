@@ -20,7 +20,7 @@ function App() {
       <Route path="/register" element={<Signup /> } />
       
       <Route path="/upload" element={<Signup /> } />
-      <Route path='/login' element={<Login />} />
+      {/* <Route path='/login' element={<Login />} /> */}
       <Route path='/admindashboard' element={<AdminDashboard />} />
       <Route path='/userdashboard' element={<UserDashboard />} />
       <Route path='/imageupload' element={<ImageUpload />} />
