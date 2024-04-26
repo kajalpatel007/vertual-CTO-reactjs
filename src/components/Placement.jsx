@@ -4,12 +4,12 @@ import { placementaccordian, proffessionalaccordian } from "../data/data";
 
 const Placement = () => {
   return (
-    <div>
-     <div class="flex flex-col items-center">
+    <div className="px-20">
+     <div class="flex flex-col items-center  ">
             <h2 class="mt-5 text-center text-3xl font-medium tracking-tight md:text-4xl">Our services</h2>
            
         </div>
-      <div className="relative overflow-hidden container m-auto pt-16 pb-32 space-y-24 mt-2">
+      <div className="relative overflow-hidden container m-auto pt-10 pb-32 space-y-24 mt-2">
         <div className="relative">
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
             <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
@@ -71,8 +71,8 @@ const Placement = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+            <div className="mt-10 sm:mt-16 lg:mt-0">
+              <div className="-mr-48 pl-6 md:-mr-16 flex justify-center items-center lg:relative lg:m-0 lg:h-full lg:px-0">
                 {/* <img
                   loading="lazy"
                   width="647"
@@ -82,9 +82,9 @@ const Placement = () => {
                   src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137"
                 /> */}
                 <img
-              src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137"
+              src="https://th.bing.com/th/id/OIP.ld6U9CtzoGILV37xngPqkgHaF7?w=1280&h=1024&rs=1&pid=ImgDetMain"
               alt="Product screenshot"
-              class="w-[48rem] h-[500px] rounded-xl shadow-lg ring-1 ring-gray-400/10 sm-h[48rem] sm:w-[52rem] md:-ml-4 lg:-ml-0"
+              class="w-[48rem] h-[400px]  rounded-xl shadow-lg ring-1 ring-gray-400/10 sm-h[48rem] sm:w-[52rem] md:-ml-4 lg:-ml-0"
               width="2432"
               height="1442"
             />
@@ -155,8 +155,8 @@ const Placement = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+            <div className="mt-8 sm:mt-16 lg:mt-0">
+              <div className="-ml-48 pr-6 md:-ml-16 flex justify-center items-center lg:relative lg:m-0 lg:h-full lg:px-0">
                 {/* <img
                   alt="Inbox user interface"
                   loading="lazy"
@@ -167,9 +167,9 @@ const Placement = () => {
                   src="https://images.unsplash.com/photo-1599134842279-fe807d23316e"
                 /> */}
                 <img
-              src="https://images.unsplash.com/photo-1599134842279-fe807d23316e"
+              src="https://www.cbmcint.com/wp-content/uploads/2022/07/Sept-19-MM-2.jpeg"
               alt="Product screenshot"
-              class="w-[48rem] h-[500px] rounded-xl shadow-lg ring-1 ring-gray-400/10 sm-h[48rem] sm:w-[52rem] md:-ml-4 lg:-ml-0"
+              class="w-[48rem] h-[400px] rounded-xl shadow-lg ring-1 ring-gray-400/10 sm-h[48rem] sm:w-[52rem] md:-ml-4 lg:-ml-0"
               width="2432"
               height="1442"
             />
@@ -238,8 +238,8 @@ const Placement = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+            <div className="mt-8 sm:mt-16 lg:mt-0">
+              <div className="-mr-48 pl-6 md:-mr-16 flex justify-center items-center lg:relative lg:m-0 lg:h-full lg:px-0">
                 {/* <img
                   loading="lazy"
                   width="647"
@@ -249,9 +249,9 @@ const Placement = () => {
                   src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137"
                 /> */}
                 <img
-              src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137"
+              src="https://static.vecteezy.com/system/resources/previews/002/058/617/non_2x/untact-technology-delivery-package-concept-free-vector.jpg"
               alt="Product screenshot"
-              class="w-[48rem] h-[500px] rounded-xl shadow-lg ring-1 ring-gray-400/10 sm-h[48rem] sm:w-[52rem] md:-ml-4 lg:-ml-0"
+              class="w-[48rem] h-[400px]  rounded-xl shadow-lg ring-1 ring-gray-400/10 sm-h[48rem] sm:w-[52rem] md:-ml-4 lg:-ml-0"
               width="2432"
               height="1442"
             />

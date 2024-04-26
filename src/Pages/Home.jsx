@@ -15,6 +15,7 @@ const Home = () => {
     <div>
       <Navbar />
       <Hero />
+   
       <Homenewcard />
       <Challengescard />
       <Placement />

@@ -14,10 +14,10 @@ const Homenewcard = () => {
             fill="white"></path>
         </svg>
       </div>
-      <h1 class="text-darken mb-3 text-xl font-medium lg:px-14">TREE AND SHRUB PRUNING</h1>
-      <p class="px-4 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iure inventore amet
-        modi
-        accusantium vero perspiciatis, incidunt dicta sed aspernatur!</p>
+      <h1 class="text-darken mb-3 text-xl font-medium lg:px-14">Technology Strategy</h1>
+      <p class="px-4 text-gray-500">                 
+       Looking to create technology strategy and bring new technology initiatives? Fractional CTOs helps organizations to organization level tech strategy and align the vision and strategy with modernized and transformative roadmap. 
+</p>
     </div>
     <div data-aos-delay="150" class="rounded-xl bg-white p-6 text-center shadow-xl">
       <div
@@ -61,10 +61,10 @@ const Homenewcard = () => {
           fill="#F5F5FC"></path>
         </svg>
       </div>
-      <h1 class="text-darken mb-3 text-xl font-medium lg:px-14 ">IRRIGATION & DRAINAGE</h1>
-      <p class="px-4 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iure inventore amet
-        modi
-        accusantium vero perspiciatis, incidunt dicta sed aspernatur!</p>
+      <h1 class="text-darken mb-3 text-xl font-medium lg:px-14 ">Technology Leadership</h1>
+      <p class="px-4 text-gray-500">              
+          Are you looking the leader who can provide the required leadership to teams and empower them to deliver unparalleled results? Fractional CTOs provide seasoned leadership and expertise to enhance delivery outcomes and at same time increase productivity:
+</p>
     </div>
     <div data-aos-delay="300" class="rounded-xl bg-white p-6 text-center shadow-xl">
       <div
@@ -75,10 +75,10 @@ const Homenewcard = () => {
             fill="white"></path>
         </svg>
       </div>
-      <h1 class="text-darken mb-3 pt-3 text-xl font-medium lg:h-14 lg:px-14">GARDEN BED MAINTENANCE</h1>
-      <p class="px-4 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iure inventore amet
-        modi
-        accusantium vero perspiciatis, incidunt dicta sed aspernatur!</p>
+      <h1 class="text-darken mb-3 pt-3 text-xl font-medium lg:h-14 lg:px-14"> Technology Delivery</h1>
+      <p class="px-4 text-gray-500">                
+        Are you looking to enhance your delivery capabilities and improve the delivery cadence with high quality project/ product deliveries. They excel in improving the following essential areas:                  </p>
+
     </div>
   </div>
 </div>
