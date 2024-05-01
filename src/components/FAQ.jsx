@@ -16,7 +16,7 @@ const FAQ = () => {
             <div class="py-3">
                 <details class="group">
                     <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span className='text-sm'> How does the billing work?</span>
+                        <span className='text-sm'>What is virtual cto?</span>
                         <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision"
                                     stroke="gray" stroke-linecap="round" stroke-linejoin="round"
@@ -25,17 +25,14 @@ const FAQ = () => {
                                 </svg>
                             </span>
                     </summary>
-                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">Springerdata offers a variety of
-                        billing options, including monthly and annual subscription plans, as well as pay-as-you-go
-                        pricing for certain services. Payment is typically made through a credit card or other
-                        secure online payment method.
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">Technology is an integral part of business success in today's world. In the era of Gen AI, AI, machine learning, and the Data Science are becoming increasingly crucial for modernization and transformation strategy for businesses, and hence the role of a Chief Technology Officer (CTO) has never been more critical.
                     </p>
                 </details>
             </div>
             <div class="py-3">
                 <details class="group">
                     <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span className='text-sm'> Can I get a refund for my subscription?</span>
+                        <span className='text-sm'>what are the uses of virtual CTO ?</span>
                         <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision"
                                     stroke="gray" stroke-linecap="round" stroke-linejoin="round"
@@ -44,18 +41,14 @@ const FAQ = () => {
                                 </svg>
                             </span>
                     </summary>
-                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">We offer a 30-day money-back
-                        guarantee for most of its subscription plans. If you are not satisfied with your
-                        subscription within the first 30 days, you can request a full refund. Refunds for
-                        subscriptions that have been active for longer than 30 days may be considered on a
-                        case-by-case basis.
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">Virtual CTO will provide comprehensive end to end strategy and technological solutions for the organizations in 1/4th cost
                     </p>
                 </details>
             </div>
             <div class="py-3">
                 <details class="group">
                     <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span className='text-sm'> How do I cancel my subscription?</span>
+                        <span className='text-sm'> Will this role also help modernizing and transforming organization app infrastructure?</span>
                         <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision"
                                     stroke="gray" stroke-linecap="round" stroke-linejoin="round"
@@ -64,16 +57,14 @@ const FAQ = () => {
                                 </svg>
                             </span>
                     </summary>
-                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">To cancel your subscription, you can
-                        log in to your account and navigate to the subscription management page. From there, you
-                        should be able to cancel your subscription and stop future billing.
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">yes
                     </p>
                 </details>
             </div>
             <div class="py-3">
                 <details class="group">
                     <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span className='text-sm'> Is there a free trial?</span>
+                        <span className='text-sm'> what kind of profiles do you have for Virtual CTO?</span>
                         <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision"
                                     stroke="gray" stroke-linecap="round" stroke-linejoin="round"
@@ -82,9 +73,7 @@ const FAQ = () => {
                                 </svg>
                             </span>
                     </summary>
-                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">We offer a free trial of our software
-                        for a limited time. During the trial period, you will have access to a limited set of
-                        features and functionality, but you will not be charged.
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">We have very seno+ior seasoned professionals who arfe coming with huge expereince in this field and can show 100% commitment in delivering successful results.
                     </p>
                 </details>
             </div>

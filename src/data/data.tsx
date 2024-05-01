@@ -1,97 +1,104 @@
 
-
-const preprationaccordian = [
-  {
-    question: "How Long is this site live?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis minim velit nostrud pariatur culpa magna in aute.",
-  },
-  {
-    question: "Can I install/upload anything I want on there?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quisminim velit nostrud pariatur culpa magna in aute.",
-  },
-  {
-    question: " How can I migrate to another site?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quisminim velit nostrud pariatur culpa magna in aute.",
-  },
-  {
-    question: "Can I install/upload anything I want on there?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quisminim velit nostrud pariatur culpa magna in aute.",
-  },
-  {
-    question: "Can I install/upload anything I want on there?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quisminim velit nostrud pariatur culpa magna in aute.",
-  },
-];
 const projectaccordian = [
   {
-    question: "How Long is this site live?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis minim velit nostrud pariatur culpa magna in aute.",
+    question: "Best Engineering Practices",
+   
   },
   {
-    question: "Can I install/upload anything I want on there?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quisminim velit nostrud pariatur culpa magna in aute.",
+    question: "Technology Evaluation",
+    
   },
   {
-    question: " How can I migrate to another site?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quisminim velit nostrud pariatur culpa magna in aute.",
+    question: "Cutting cross Architectural principles",
+    
   },
   {
-    question: "Can I install/upload anything I want on there?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quisminim velit nostrud pariatur culpa magna in aute.",
+    question: "Improving delivery cadence and quality",
+    
   },
   {
-    question: "Can I install/upload anything I want on there?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quisminim velit nostrud pariatur culpa magna in aute.",
+    question: "Agile Transformation and Coaching",
+    
+  },
+  {
+    question: "Technology Support and Maintenance",
+    
+  },
+  {
+    question: "Gen AI / AI-MLInitiatives",
+    
   },
 ];
 
 const proffessionalaccordian = [
   {
-    question: "How Long is this site live?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis minim velit nostrud pariatur culpa magna in aute.",
+    question: "Strategic Technology Roadmap",
+    
   },
   {
-    question: "Can I install/upload anything I want on there?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quisminim velit nostrud pariatur culpa magna in aute.",
+    question: "Technology Alignment with Business Goals",
+    
   },
   {
-    question: " How can I migrate to another site?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quisminim velit nostrud pariatur culpa magna in aute.",
+    question: "Technology Transformation Stratrgies",
+    
+  },
+  
+  {
+    question: "Technology Cost Management",
+    
+  },
+  {
+    question: "Technology Modernization",
+    
   },
 ];
 
 const placementaccordian = [
   {
-    question: "How Long is this site live?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis minim velit nostrud pariatur culpa magna in aute.",
+    question: "Technology Research & Innovation",
+    
   },
   {
-    question: "Can I install/upload anything I want on there?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quisminim velit nostrud pariatur culpa magna in aute.",
+    question: "Resource Planning & Allocation",
+    
   },
   {
-    question: " How can I migrate to another site?",
-    answer:
-      "Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore ex aute deserunt esse ipsum elit aliqua. Aute quisminim velit nostrud pariatur culpa magna in aute.",
+    question: "Agile Development Practices",
+    
   },
+  {
+    question: "Technology Architecture & Design",
+    
+  },
+  {
+    question: "Technology Infrastructure Optimization",
+    
+  },
+  {
+    question: "Technology Security& Compliance",
+    
+  },
+ 
 ];
 
-
+const card4 = [
+  {
+    question: "Business Model Innovation",
+  },
+  {
+    question: "Talent Acquisition and Training",
+  },
+  {
+    question: "Monitoring and Maintenance",
+  },
+  {
+    question: "Data Privacy and Security",
+  },
+  {
+    question: "Data Collection and Quality",
+  },
+]
 
 
 
@@ -101,10 +108,11 @@ const placementaccordian = [
 
 
 export {
-  preprationaccordian,
+
   projectaccordian,
   placementaccordian,
   proffessionalaccordian,
+  card4
  
 };
 

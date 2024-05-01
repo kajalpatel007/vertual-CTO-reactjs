@@ -43,10 +43,10 @@ const Challengescard = () => {
             class="text-blue-300 flex items-center hover:text-blue-400"
             href="/"
           >
-            More about us icon
+            More about us
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              class="h-5 w-5 mt-1"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -85,10 +85,10 @@ const Challengescard = () => {
             class="text-blue-300 flex items-center hover:text-blue-400"
             href="/"
           >
-            More about us icon
+            More about us
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              class="h-5 w-5 mt-1"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -126,10 +126,10 @@ const Challengescard = () => {
             class="text-blue-300 flex items-center hover:text-blue-400"
             href="/"
           >
-            More about us icon
+            More about us 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              class="h-5 w-5 mt-1"
               viewBox="0 0 20 20"
               fill="currentColor"
             >

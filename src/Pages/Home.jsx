@@ -17,7 +17,7 @@ const Home = () => {
       <Hero />
    
       <Homenewcard />
-      <Challengescard />
+      {/* <Challengescard /> */}
       <Placement />
       {/* <Weoffer /> */}
       {/* <Collaboration /> */}

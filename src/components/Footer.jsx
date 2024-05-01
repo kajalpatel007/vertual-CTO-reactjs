@@ -17,7 +17,11 @@ function Footer() {
                   {/* <img src='https://gohackathon.in/img/main_logo.png' alt='image'></img> */}
                 </a>
                 <p className=" text-gray-400 ">
-                  Project Based Preparation for Placement by Professionals.
+                <div class="flex items-center">
+        <img src="https://gennextit.com/assets/Frontend/logo/Gennextlogoxdarkblue.png" className="w-[120px] md:w-[160px]"></img>
+      
+        </div>
+        Technology is an integral part of business success in today's world
                 </p>
               </div>
 
@@ -80,9 +84,8 @@ function Footer() {
                 Copyright © 2022 - 2024
                 VirtualCTO. All Rights Reserved.
               </div>
-              <div className="px-4 w-full text-center sm:w-auto text-sm sm:text-left">
-                Made with by Reactjs.
-              </div>
+            
+             
             </div>
           </div>
         </div>
