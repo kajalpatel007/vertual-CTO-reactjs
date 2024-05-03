@@ -23,7 +23,7 @@ const ChefTechnology = () => {
            </div>
         </span>
 
-        <h2 class="mt-2 font-bold text-base sm:text-lg text-blue-700">
+        <h2 class="mt-2 font-bold text-center text-base sm:text-lg text-blue-700">
         Part-Time CTO on Demand
         </h2>
         <p class="sm:mt-1 block text-center text-sm sm:text-base text-gray-700">This flexible model enables virtual CTOs to operate for a fixed number of hours per week as per business needs.
@@ -37,7 +37,7 @@ const ChefTechnology = () => {
 
             </div>
         </span>
-        <h2 class="mt-2 font-bold text-base sm:text-lg text-blue-700">
+        <h2 class="mt-2 font-bold text-center text-base sm:text-lg text-blue-700">
         Full-Time CTO - 40 hours per week
         </h2>
         <p class="sm:mt-1 block text-center text-sm sm:text-base text-gray-700"> A dedicated technology leader for comprehensive engagement to ensure technology roadmaps are well-executed.
@@ -52,7 +52,7 @@ const ChefTechnology = () => {
             </div>
         </span>
 
-        <h2 class="mt-2 font-bold text-base sm:text-lg text-blue-700">
+        <h2 class="mt-2 font-bold text-center text-base sm:text-lg text-blue-700">
         Fractional CTO for Hire</h2>
         <p class="sm:mt-1 block text-sm text-center sm:text-base text-gray-700"> Get access to top-tier CTO as a consulting services to deliver exclusive transformation projects on an ad-hoc basis.
         </p>
@@ -65,7 +65,7 @@ const ChefTechnology = () => {
 
            </div>
         </span>
-        <h2 class="mt-2 font-bold text-base sm:text-lg text-blue-700">
+        <h2 class="mt-2 font-bold text-center text-base sm:text-lg text-blue-700">
         Virtual CTO with Fixed Pricing </h2>
         <p class="sm:mt-1 block text-center text-sm sm:text-base text-gray-700">Virtual CTOs can be accountable for end-to-end technology management at a fixed cost. You will have access to Virtual CTO in your time zone.
         </p>
