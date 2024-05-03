@@ -14,7 +14,7 @@ const ChefTechnology = () => {
             <div className=' py-16'>
             <div class=" bg-white ">
 
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-white px-10 ">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-white md:px-10 ">
 
     <div class="flex flex-col justify-center items-center rounded-lg border border-blue-800  p-4">
         <span class="  flex flex-col justify-center items-center rounded-lg p-3">

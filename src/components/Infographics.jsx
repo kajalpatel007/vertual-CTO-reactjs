@@ -12,7 +12,7 @@ const Infographics = () => {
 
             </p>
             <div className=' z-0'>
-               <img src='/infographics3.png' className='w-[900px]' ></img>
+               <img src='/infographics3.png'></img>
             </div>
         </div>
         </div>
