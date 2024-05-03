@@ -11,7 +11,7 @@ const ChefTechnology = () => {
             <p class="mt-3 text-md text-center text-neutral-500 md:text-xl">Our on-demand CTO takes full ownership of technology strategy, innovation, product management, cloud infrastructure engineering, and cost optimization, and also ensures your technology roadmap is executed flawlessly within a defined time frame. The CTO as a service brings a unique perspective to address techno-functional challenges and provide cost-effective digital solutions.
 
             </p>
-            <div className=' py-16'>
+            <div className=' md:py-16'>
             <div class=" bg-white ">
 
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-white md:px-10 ">

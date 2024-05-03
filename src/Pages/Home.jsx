@@ -13,6 +13,7 @@ import Placement from '../components/Placement'
 import Infographics from '../components/Infographics'
 import CTA from '../components/CTA'
 import ChefTechnology from '../components/ChefTechnology'
+import Services from '../components/Services'
 const Home = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const Home = () => {
       <Homenewcard />
       {/* <Challengescard /> */}
       <Placement />
+      <Services />
       <Infographics />
       {/* <Weoffer /> */}
       {/* <Collaboration /> */}
