@@ -11,25 +11,25 @@ const carouselData = [
   {
     image: '/Amit_gupta2.jpeg',
     heading: 'Amit Gupta (CEO)',
-    paragraph: 'Senior Technology Leader and Enterprise Architect with around 24 years of experience in transforming, building and modernizing the complex IT organizations and its functions by implementing required level of innovation, cutting-edge technology and building long term sustainable solutions. Strong Enterprise Architect acumen in leading various Enterprise Solutions, Solution Design and achieving delivery excellence for various global organization functions in domain like Banking and Financial Services, Healthcare, Manufacturing and IT Services.',
+    paragraph: 'Senior Technology Leader and Enterprise Architect with around 24 years of experience in transforming, building and modernizing the complex IT organizations and its functions by implementing required level of innovation, cutting-edge technology and building long term sustainable solutions. ',
   },
   
 ];
 
 
-  const [currentIndex, setCurrentIndex] = useState(0);
+  // const [currentIndex, setCurrentIndex] = useState(0);
 
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === carouselData.length - 1 ? 0 : prevIndex + 1));
-  };
+  // const nextSlide = () => {
+  //   setCurrentIndex((prevIndex) => (prevIndex === carouselData.length - 1 ? 0 : prevIndex + 1));
+  // };
 
-  const prevSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? carouselData.length - 1 : prevIndex - 1));
-  };
+  // const prevSlide = () => {
+  //   setCurrentIndex((prevIndex) => (prevIndex === 0 ? carouselData.length - 1 : prevIndex - 1));
+  // };
   
   return (
     <>
-      <div class=" max-w-3xl text-center sm:text-center md:mx-auto ">
+      <div class=" max-w-3xl text-center mt-5 sm:text-center md:mx-auto ">
         <h2 class="font-heading mb-3 font-medium tracking-tight text-gray-900 dark:text- text-3xl sm:text-4xl">
           People
         </h2>
@@ -43,29 +43,24 @@ const carouselData = [
 
 
 
-    <div className='md:px-48 md:py-20 pt-20 pb-5 ' >
-    
-    <div className="relative " style={{boxShadow: "1px 1px 9px -2.5px"}} >
-      <button className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 text-white p-0 md:p-1 rounded-full" onClick={prevSlide}>
-        {/* SVG for previous icon */}
-        <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-        </svg>
-      </button>
-      <button className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 text-white p-0 md:p-1 rounded-full" onClick={nextSlide}>
-        {/* SVG for next icon */}
-        <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-        </svg>
-      </button>
+    <div className='md:flex justify-between items-center md:px-20 gap-20 md:pt-20 pt-20 pb-5  ' >
+    {carouselData.map((index) => {
+      return (
+        <>
+        <div className="relative mb-20 md:mb-0" style={{boxShadow: "1px 1px 9px -2.5px"}} >
+      
       <div className="mx-auto max-w-lg flex flex-col ">
-        <img src={carouselData[currentIndex].image} alt="carousel" className="flex-shrink-0 -mt-10 w-24 h-24 rounded-full self-center" />
+        <img src={index.image} alt="carousel" className="flex-shrink-0 -mt-10 w-24 h-24 rounded-full self-center" />
         <div className="text-center p-4">
-          <h2 className="text-xl font-bold mb-2 text-blue-500">{carouselData[currentIndex].heading}</h2>
-          <p className="text-gray-700 px-5">{carouselData[currentIndex].paragraph}</p>
+          <h2 className="text-xl font-bold mb-2 text-blue-500">{index.heading}</h2>
+          <p className="text-gray-700 px-5">{index.paragraph}</p>
         </div>
       </div>
     </div>
+        </>
+      )
+    })}
+    
     </div>
   
      

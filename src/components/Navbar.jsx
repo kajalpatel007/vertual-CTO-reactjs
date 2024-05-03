@@ -35,7 +35,7 @@ const Navbar = () => {
             </svg>
 
           </button>
-          <li className='rounded-md bg-gradient-to-br list-none from-blue-300 to-blue-200 px-3 py-1.5 font-dm text-sm font-medium text-white shadow-md shadow-blue-400/50 transition-transform duration-200 ease-in-out hover:scale-[1.03] cursor-pointer'><Link to='contact' smooth={true} offset={-10} duration={500}>Contact us</Link></li>
+          <li className='rounded-md bg-gradient-to-br list-none from-blue-500 to-blue-400 px-3 py-1.5 font-dm text-sm font-medium text-white shadow-md shadow-blue-400/50 transition-transform duration-200 ease-in-out hover:scale-[1.03] cursor-pointer'><Link to='contact' smooth={true} offset={-10} duration={500}>Contact us</Link></li>
 
           {/* <Link to="/contactus"><a
             class="rounded-md bg-gradient-to-br from-blue-300 to-blue-200 px-3 py-1.5 font-dm text-sm font-medium text-white shadow-md shadow-blue-400/50 transition-transform duration-200 ease-in-out hover:scale-[1.03]"

@@ -10,6 +10,9 @@ import Challengescard from '../components/Challengescard'
 import Weoffer from '../components/Weoffer'
 import Homenewcard from '../components/Homenewcard'
 import Placement from '../components/Placement'
+import Infographics from '../components/Infographics'
+import CTA from '../components/CTA'
+import ChefTechnology from '../components/ChefTechnology'
 const Home = () => {
   return (
     <div>
@@ -19,9 +22,12 @@ const Home = () => {
       <Homenewcard />
       {/* <Challengescard /> */}
       <Placement />
+      <Infographics />
       {/* <Weoffer /> */}
       {/* <Collaboration /> */}
       <Testimonial />
+      <CTA />
+      <ChefTechnology />
       <FAQ />
      <Contact />
      <Footer />

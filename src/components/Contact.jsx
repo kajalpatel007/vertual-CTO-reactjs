@@ -99,7 +99,7 @@ const Contact = () => {
                 </p>
                 <ul class="mb-6 md:mb-0">
                   <li class="flex">
-                    <div class="flex h-10 w-10 items-center justify-center rounded-full bg-blue-300 text-gray-50">
+                    <div class="flex h-10 w-10 items-center justify-center rounded-full bg-blue-500 text-gray-50">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -126,7 +126,7 @@ const Contact = () => {
                     </div>
                   </li>
                   <li class="flex">
-                    <div class="flex h-10 w-10 items-center justify-center rounded-full bg-blue-300 text-gray-50">
+                    <div class="flex h-10 w-10 items-center justify-center rounded-full bg-blue-500 text-gray-50">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -157,7 +157,7 @@ const Contact = () => {
                     </div>
                   </li>
                   <li class="flex">
-                    <div class="flex h-10 w-10 items-center justify-center rounded-full bg-blue-300 text-gray-50">
+                    <div class="flex h-10 w-10 items-center justify-center rounded-full bg-blue-500 text-gray-50">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -268,7 +268,7 @@ const Contact = () => {
                   <div class="text-center">
                     <button
                       type="submit"
-                      class="w-full bg-blue-300 text-white px-6 py-2 font-xl rounded-md sm:mb-0"
+                      class="w-full bg-blue-500 hover:bg-blue-400 text-white px-6 py-2 font-xl rounded-md sm:mb-0"
                     >
                       Send Message
                     </button>
