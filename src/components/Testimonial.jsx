@@ -10,7 +10,7 @@ const carouselData = [
   },
   {
     image: '/Amit_gupta2.jpeg',
-    heading: 'Amit Gupta (CEO)',
+    heading: 'Amit Gupta (CTO)',
     paragraph: 'Senior Technology Leader and Enterprise Architect with around 24 years of experience in transforming, building and modernizing the complex IT organizations and its functions by implementing required level of innovation, cutting-edge technology and building long term sustainable solutions. ',
   },
   
@@ -29,27 +29,24 @@ const carouselData = [
   
   return (
     <>
-      <div class=" max-w-3xl text-center mt-5 sm:text-center md:mx-auto ">
-        <h2 class="font-heading mb-3 font-medium tracking-tight text-gray-900 dark:text- text-3xl sm:text-4xl">
+    <section>
+        <div class="mx-auto max-w-6xl px-2  sm:px-6 sm:py-0">
+        <div class=" max-w-3xl text-center mt-5 sm:text-center md:mx-auto ">
+        <h2 class="font-heading mb-3 font-medium tracking-tight text-gray-900 text-4xl sm:text-4xl">
           People
         </h2>
-        <p class="mx-auto max-w-3xl text-md text-gray-600 dark:text-slate-400">
-          We just know tech and we know that very well!
-        </p>
+        <p class="mt-3 text-md text-center text-neutral-500 md:text-xl">
+        We just know tech and we know that very well!
+                </p>
+        
       </div>
-      
-
-
-
-
-
-    <div className='md:flex justify-between items-center md:px-20 gap-20 md:pt-20 pt-20 pb-5  ' >
+      <div className='md:flex justify-center items-center gap-20 md:pt-20 pt-20 pb-5  ' >
     {carouselData.map((index) => {
       return (
         <>
         <div className="relative mb-20 md:mb-0" style={{boxShadow: "1px 1px 9px -2.5px"}} >
       
-      <div className="mx-auto max-w-lg flex flex-col ">
+      <div className="mx-auto max-w-lg mb-16 flex flex-col ">
         <img src={index.image} alt="carousel" className="flex-shrink-0 -mt-10 w-24 h-24 rounded-full self-center" />
         <div className="text-center p-4">
           <h2 className="text-xl font-bold mb-2 text-blue-500">{index.heading}</h2>
@@ -62,6 +59,16 @@ const carouselData = [
     })}
     
     </div>
+        </div>
+      </section>
+     
+      
+
+
+
+
+
+   
   
      
     </>

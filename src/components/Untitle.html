@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+     <meta charset="UTF-8">
+
+     <style>
+          * {
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+               font-family: 'Nunito', sans-serif;
+          }
+
+          header {
+               background: linear-gradient(30deg, #004586, #0185CF);
+               background: #0185CF;
+               width: 100%;
+               height: 70px;
+               display: flex;
+               align-items: center;
+               padding: 12px;
+               color: white;
+
+          }
+
+          nav {
+               font-weight: bolder;
+               font-size: 30px;
+               padding: 10px;
+               width: 100%;
+               display: block;
+               color: white;
+               text-align: center;
+
+          }
+
+          .sectionUrl {
+               width: 100%;
+
+          }
+
+          .slider {
+
+               width: 100%;
+               height: 300px;
+
+               background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC4K2m7IwDlXmv9zr4DdAYhymdgaCBFJRmbw&usqp=CAU);
+               background-size: cover;
+
+               position: relative;
+
+          }
+
+          #url {
+               margin: 20px;
+               width: 300px;
+               height: 50px;
+               border: 1.6px solid #eee;
+               border-radius: 6px;
+               text-indent: 10px;
+               outline-color: #0185CF;
+          }
+
+          #Dbtn {
+               width: 120px;
+               height: 50px;
+               border: 1.5px solid #eee;
+               background: #0185CF;
+               border-radius: 5px;
+               color: #eee;
+               box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+               margin: 20px;
+               background: linear-gradient(30deg, #004586, #0185CF);
+          }
+
+          #Dbtn:active,
+          button:active {
+               transform: scale(.9);
+          }
+
+          .vQuality-box {
+               width: 340px;
+               padding: 15px;
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+               margin: 10px auto;
+          }
+
+          button {
+               width: 130px;
+               height: 40px;
+               background: #0185CF;
+               color: white;
+               padding: 4px;
+               border-style: hidden;
+               margin: 5px;
+               background: linear-gradient(30deg, #004586, #0185CF);
+          }
+
+          .res {
+               background: transparent;
+               color: #203040;
+               border: 1.6px solid #eee;
+               border-radius: 5px;
+
+          }
+
+          .videoBox {
+               padding: 25px;
+               width: 100%;
+               display: flex;
+               justify-content: center;
+               flex-wrap: wrap;
+
+
+          }
+
+          .vid-info {
+               display: flex;
+               flex-direction: column;
+               padding: 15px;
+          }
+
+          .highlights {
+               padding: 25px;
+               width: 100%;
+               height: auto;
+               background: #b4c4c488;
+
+               display: flex;
+               flex-wrap: wrap;
+
+          }
+
+          h2 {
+               font-size: 17px;
+               text-align: center;
+          }
+
+          .highlight-box {
+               width: 270px;
+               padding: 20px;
+               height: 360px;
+               border: 1.5px solid #eee;
+               border-radius: 5px;
+               margin: 20px auto;
+               overflow: hidden;
+               /* /box-shadow:0 0 5px 1px rgba(0,0,0,.12);/ */
+               background: white;
+          }
+
+          article {
+               margin: 10px;
+               color: #aaa;
+               font-size: 13px;
+          }
+
+          h4 {
+               color: #505050;
+               margin: 25px;
+          }
+
+          .legal-notice-box {
+               display: flex;
+               width: 100%;
+               background-color: #eee;
+               flex-direction: column;
+               align-items: center;
+               text-align: center;
+          }
+
+          .legal {
+               width: 600px;
+          }
+
+          @media screen and (min-width:320px) {
+               .legal {
+                    width: 95%;
+               }
+
+               #url {
+                    width: 250px;
+
+               }
+
+               #Dbtn {
+                    margin: 0;
+                    padding: 0;
+               }
+
+               .res {
+                    width: 90px;
+               }
+
+               .sectionUrl {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: center;
+               }
+
+               #url {
+                    width: 300px;
+
+               }
+          }
+
+          @media screen and (min-width:768px) {
+               .legal {
+                    width: 600px;
+
+               }
+
+               nav {
+                    text-align: left;
+                    text-indent: 15px;
+                    padding-top: 20px;
+               }
+
+               .button {
+                    width: 300px;
+               }
+
+               .sectionUrl {
+                    display: flex;
+                    flex-direction: row;
+
+                    align-items: center;
+                    width: 100%;
+                    justify-content: center;
+               }
+
+               #url {
+                    width: 500px;
+
+               }
+          }
+
+          @media screen and (min-width:1440px) {
+               .legal {
+                    width: 850px;
+
+               }
+          }
+
+          footer {
+               width: 100%;
+               min-height: 500px;
+               padding: 20px;
+               text-align: center;
+               color: white;
+               background: #102030;
+               position: relative;
+               display: online-block;
+
+          }
+
+          .footer {
+               width: 100%;
+               background: #0185CF;
+               color: white;
+               font-size: 12px;
+               height: 50px;
+               position: relative;
+               bottom: -40px;
+
+               left: 0;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+
+          }
+
+          a {
+               color: #eee;
+               text-decoration-color: white;
+               margin: 15px;
+
+               /* display:block; */
+          }
+
+          .api {
+               width: 300px;
+          }
+
+          .box {
+               display: inline-block;
+
+          }
+
+          small {
+               color: crimson;
+               font-size: 10px;
+               text-align: center;
+
+          }
+
+          .banner {
+               color: white;
+               font-size: 20px;
+               text-align: center;
+
+
+          }
+
+          .sample-video {
+               font-size: 35px;
+               color: #eee;
+               margin-right: 80px;
+          }
+
+          .smpl-txt {
+               font-size: 15px;
+               color: #eee;
+               width: 100px;
+               white-space: nowrap;
+               position: absolute;
+               right: 30px;
+               margin-top: 65px;
+
+          }
+
+          @keyframes loadingSpin {
+               from {
+                    transform: rotate(0deg);
+               }
+
+               to {
+                    transform: rotate(360deg);
+               }
+          }
+
+          .available {
+               text-align: center;
+               margin-top: 24px;
+          }
+
+          .apps-icon {
+               font-size: 50px;
+               margin: 15px;
+               color: white;
+          }
+
+          .avl-text {
+               color: #eee;
+               font-size: 12px;
+          }
+
+          .v-smple-box {
+               padding: 20px 20px 25px 25px;
+               color: white;
+               font-weight: bold;
+               border-radius: 150px;
+               background: rgba(255, 255, 255, .2);
+               display: flex;
+               width: 150px;
+               height: 40px;
+               text-align: center;
+               align-items: center;
+               margin: 15px auto;
+          }
+
+          .play-icon {
+               margin-left: 20px;
+          }
+
+          .logo-shake {
+               animation: logo-shake 2s linear infinite;
+               animation-direction: alternate;
+          }
+
+          @keyframes logo-shake {
+               from {
+                    margin: 5px;
+               }
+
+               to {
+                    margin: 0px;
+               }
+          }
+     </style>
+     <meta name="theme-color" content="#0185CF">
+     <meta charset="UTF-8">
+     <title>Uvideo Downloader</title>
+</head>
+
+<body>
+     <!--header>
+    <nav><i class="fab fa-drupal"></i> UVideo</nav>   
+   </header-->
+
+
+     <section class="slider">
+          <nav><i class="fab fa-drupal logo-shake"></i> UVideo</nav>
+
+          <div class="available">
+
+               <div class="avl-text">Also available in </div>
+               <i class="fab fa-android apps-icon"></i>
+               <i class="fab fa-apple apps-icon"></i>
+               <i class="fab fa-firefox apps-icon"></i>
+          </div>
+
+          <div class="v-smple-box">
+               <div class="v-smple-icon"></div>
+               <p class="spmle-txt"><i class="far fa-play play-icon"></i> Try now</p>
+          </div>
+
+
+     </section>
+
+     <section class="sectionUrl">
+
+          <input type="url" id="url" placeholder="Paste youtube link...">
+
+          <small></small>
+          <button type="button" id="Dbtn" value="Get video" onclick="GetVidLink()">Get video <i
+                    class="far fa-arrow-right"></i></button>
+
+
+     </section>
+
+     <section class="videoBox">
+
+     </section>
+     <section class="highlights">
+
+          <div class="highlight-box">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs5dyjaQKWW9wQnilnA6VZbpmYF3aEjil4652oaDttRwaF-X924pkuHac&s=10"
+                    width="225">
+               <h2 style="color:#3498db;">Quick URL Modification for Easy Video Conversion</h2>
+               <article>Next, insert "ss" before the YouTube video's URL. This action triggers an efficient conversion
+                    process, paving the way for a smooth download</article>
+          </div>
+
+
+
+          <div class="highlight-box">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsFHBaWma1tcWq8kaK-U0bVmuPnAdBOs6dew&usqp=CAU"
+                    width="225">
+               <h2 style="color:olive;">Hassle-Free Video Download in Just a Few Clicks</h2>
+               <article>Press "Enter" to be swiftly redirected to a selection of convenient download options, tailored
+                    to meet your needs.</article>
+          </div>
+
+
+
+
+
+          <div class="highlight-box">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaI8cxM9jm0kGDv2yEdV8a1i0PdjLicNm8Mg&usqp=CAU"
+                    width="225">
+               <h2 style="color:indigo;">High-Quality Video Downloads in MP4 Format with SSYoutube
+
+               </h2>
+               <article>Download premium quality videos with our advanced YouTube downloader, now offering MP4 format
+                    conversions. Experience superior video clarity on a range of platforms, including TikTok, Instagram,
+                    Facebook, and YouTube. Select your preferred resolution - SD, HD, FullHD, 2K, or 4K. Capture videos
+                    in their original 1080p quality or opt for a different resolution based on your needs.</article>
+          </div>
+
+
+
+
+          <div class="highlight-box">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJkrmbOieb23Zfglh5pwKqsxqf0Pm3nFcMw&usqp=CAU"
+                    width="225px">
+               <h2 style="color:maroon;">Compatible Browsers for Our Video Downloader
+
+               </h2>
+               <article>Enjoy seamless video downloading with our tool, compatible across various browsers. Use it
+                    effortlessly on Google Chrome, Mozilla Firefox, Safari, Opera, and any other Chromium-based browser.
+               </article>
+          </div>
+
+
+
+          <div class="highlight-box">
+               <center> <img
+                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMyavGNqxlgTqdalzi-Yajx0oPpo-iDb_3VFo9BXuc-aMKeMuL1FI-hDUQ&s=10"
+                         width="100px">
+               </center>
+               <h2 style="color:red;">Shorts Video download in one click
+
+               </h2>
+               <article>Enjoy seamless video downloading with our tool, compatible across various browsers. Use it
+                    effortlessly on Google Chrome, Mozilla Firefox, Safari, Opera, and any other Chromium-based browser.
+               </article>
+          </div>
+
+          <div class="highlight-box">
+               <img src="https://ssyoutube.com/img/steps/how_can_i_save_3.png" width="225px">
+               <h2 style="color:maroon;">Compatible Browsers for Our Video Downloader
+
+               </h2>
+               <article>Enjoy seamless video downloading with our tool, compatible across various browsers. Use it
+                    effortlessly on Google Chrome, Mozilla Firefox, Safari, Opera, and any other Chromium-based browser.
+               </article>
+          </div>
+
+
+
+     </section>
+
+
+
+
+
+
+     <section class="legal-notice-box">
+          <h4 style="color:crimson;font-size:15px;">Legal Advisory:</h4>
+          <article class="legal">
+               Recognizing the importance of downloading videos, photos, and GIFs for personal enjoyment is key. It is
+               crucial to adhere to copyright and intellectual property regulations. Please ensure that downloads are
+               for personal use only and avoid any unauthorized sharing or distribution.
+               At Uvideo.com, our commitment lies in offering a comprehensive solution for downloading videos, photos,
+               and GIFs. Our aim is to enable you to enjoy your preferred digital content whenever you desire, even when
+               lacking an internet connection. Explore our user-friendly Downloader tool now and effortlessly curate
+               your offline collection, enriching your personal experience.
+          </article>
+     </section>
+     <center>
+          <h4>Disclaimer</h4>
+          <article style="font-size:11px;font-weight:bold;" class="legal">
+               Uvideo.com functions independently and is not affiliated with specific social media or video hosting
+               platforms. Our services are tailored to fulfill the distinct downloading needs of our users. Users are
+               accountable for adhering to the terms, conditions, and copyright regulations set by the platforms they
+               utilize to obtain content.
+          </article>
+     </center>
+
+
+     </section>
+
+
+
+
+     <footer>
+          <h3 class="thnx">Thanks for visiting ❤️</h3>
+          <div class="box">
+               <div class="api">
+
+                    <h3><i class="fab fa-firefox"></i> WEB</h3>
+                    <a href="">Learn ReactJs</a>
+                    <a href="">Online Chatting</a>
+                    <a href="">Dating App</a>
+                    <a href="">Website Builder</a>
+                    <a href="">Css framework</a>
+
+
+               </div>
+          </div>
+
+          <div class="box">
+               <div class="api">
+                    <h3>API BASED</h3>
+
+                    <a class="Link" href="">Live Train RITCC</a>
+                    <a href="">Song</a>
+                    <a href="">Travel</a>
+                    <a href="">Online products</a>
+                    <a href="">Weather</a>
+                    <a href="">country info</a>
+
+
+               </div>
+          </div>
+
+
+          <div class="box">
+               <div class="api">
+
+                    <h3><i class="fas fa-gamepad"></i> GAME</h3>
+                    <a href="">Snake</a>
+                    <a href="">Bounce</a>
+                    <a href="">Color match</a>
+                    <a href="">Typing speed</a>
+                    <a href="">TapTap</a>
+                    <a href="">Online Quiz</a>
+                    <a href="Pop the Baloons">Pop the Baloons</a>
+
+               </div>
+          </div>
+
+
+
+
+
+
+          <div class="footer">&copy; 2024 Youtube downloader made with ❤️ by Dev</div>
+     </footer>
+     <script>
+
+          async function fetchVideo() {
+               var linkfield = document.getElementById("url");
+               var link = linkfield.value;
+
+               if (link.includes("https://youtube.com/shorts/")) {
+                    var z = link.replace("https://youtube.com/shorts/", "?");
+                    arr = z.split("?")
+                    url = "https://ytstream-download-youtube-videos.p.rapidapi.com/dl?id=" + arr[1];
+
+
+               } else {
+                    var z = link.replace("https://youtu.be/", "?");
+                    var arr = z.split("?")
+
+                    url = "https://ytstream-download-youtube-videos.p.rapidapi.com/dl?id=" + arr[1];
+               }
+
+
+
+
+               const options = {
+                    method: 'GET',
+                    headers: {
+                         'X-RapidAPI-Key': '733cf8d197mshbd1833d3c833a34p19dfe6jsne5d62180099d',
+                         'X-RapidAPI-Host': 'ytstream-download-youtube-videos.p.rapidapi.com'
+                    }
+               };
+
+               try {
+                    const response = await fetch(url, options);
+                    const result = await response.json();
+                    //const result = await response.text();
+
+                    // Parse JSON response
+
+                    const videoUrl = result.formats[1].url;
+                    document.getElementById("Dbtn").innerHTML = 'Get video <i class="far fa-arrow-right"style="animation 0s linear 0;"></i>';
+                    document.getElementsByClassName("videoBox")[0].innerHTML = `
+       
+       <img src="${result.thumbnail[2].url}" id="thumbnail"width=300></video>
+       <div class="vid-info">
+       <h3 class="v-title"style="width:240px;">Title: ${result.title}</h3>
+       <p class="author" style="width:50px;"><i class="far fa-user"></i> Author: ${result.channelTitle}</p>
+       <p class="dur"><i class="fal fa-clock"></i> Duration: ${(result.lengthSeconds / 60).toFixed(2)}m</p>
+       </div>
+    <div class="vQuality-box">
+       <button class="res"><i class="fal fa-video"></i> 360p</button> 
+       
+        <a href="${result.formats[1].url}"style="color:"#272822;"download="true.mp4"> <button><i class="far fa-arrow-down"></i> Download</button>
+        </a>
+       <button  class="res">
+           <i class="fal fa-video"></i> 480p</button>
+           
+           <a href="${result.formats[1].url}"style="color:"#272822;"download>  <button><i class="far fa-arrow-down"></i> Download</button>
+            </a>
+            <button  class="res"><i class="fal fa-video"></i> 720p</button> 
+            
+            <a href="${result.formats[1].url}"style="color:"#272822;"download> <button><i class="far fa-arrow-down"></i> Download</button>
+            </a>
+          <button  class="res"><i class="fal fa-video"></i> 1080p</button> 
+           <a href="${result.formats[1].url}"style="color:"#272822;"download>
+          <button><i class="far fa-arrow-down"></i> Download</button>
+        
+        </a>
+    </div> 
+       
+       `;
+
+                    /* const videoUrl =result.formats[2].url;
+               const videoUrl =result.formats[3].url;
+                const videoUrl =result.formats[4].url;   */
+
+
+                    //  const videoUrl = result; 
+
+
+               } catch (error) {
+                    console.error(error);
+               }
+          }
+
+
+
+          function GetVidLink() {
+               //urlL="https://ytstream-download-youtube-videos.p.rapidapi.com/dl?id=QuBXbQR0iOM";
+               var url = document.getElementById("url");
+               if (url.value == "" * 1) {
+                    document.getElementsByTagName("small")[0].innerHTML = "Please paste valid YouTube link.";
+                    return false;
+               } else {
+                    //document.getElementsByTagName("small")[0].innerHTML="Invalid link.";  
+                    fetchVideo();
+                    document.getElementById("Dbtn").innerHTML = '<i class="far fa-spinner"style="animation: loadingSpin .5s linear infinite;"></i>';
+
+               }
+
+          }
+     </script>
+</body>
+
+</html>

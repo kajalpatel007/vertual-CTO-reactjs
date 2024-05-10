@@ -19,17 +19,19 @@ const Home = () => {
     <div>
       <Navbar />
       <Hero />
+
    
       <Homenewcard />
       {/* <Challengescard /> */}
-      <Placement />
+      {/* <Placement /> */}
       <Services />
       <Infographics />
       {/* <Weoffer /> */}
-      {/* <Collaboration /> */}
       <Testimonial />
       <CTA />
       <ChefTechnology />
+      {/* <Collaboration /> */}
+
       <FAQ />
      <Contact />
      <Footer />

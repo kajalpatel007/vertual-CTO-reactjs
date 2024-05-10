@@ -62,19 +62,23 @@ export let CollaborationData=[
           contents: [
             {
               name: "About Us",
-              link: "/about",
+              link: "https://www.gennextit.com/MainSite/aboutus",
+            },
+            {
+              name: "Contact",
+              link: "https://www.gennextit.com/MainSite/contactus",
+            },
+            {
+              name: "Privacy Policy",
+              link: "https://www.gennextit.com/MainSite/privacy_policy",
             },
             {
               name: "Terms & Conditions",
-              link: "/toc",
+              link: "https://www.gennextit.com/MainSite/term_condition",
             },
             {
-              name: "Leadership",
-              link: "/privacy",
-            },
-            {
-              name: "Contact Us",
-              link: "/contact",
+              name: "Blog",
+              link: "https://www.gennextit.com/blog/",
             },
           ],
         },
@@ -83,43 +87,42 @@ export let CollaborationData=[
           section: "Services",
           contents: [
             {
-              name: "Data Services",
-              link: "#",
+              name: "IT Advisory and Consulting",
+              link: "https://www.gennextit.com/services/it-advisory",
             },
             {
-              name: "Low Code Development",
-              link: "#",
+              name: "IT Audits",
+              link: "https://www.gennextit.com/services/it-audits",
             },
             {
-              name: "QA & Testing",
-              link: "#",
+              name: "Mobile Applications ",
+              link: "https://www.gennextit.com/services/mobile-applications",
             },
             {
-              name: "Virtual CTO",
-              link: "#",
+              name: "Web Application Development",
+              link: "https://www.gennextit.com/services/web-application-development-and-maintenance",
             },
           ],
         },
       
         {
-          section: "Partners",
+          section: "Social",
           contents: [
             {
-              name: "Webinars and Seminars",
+              name: "Facebook",
+              link: "https://www.facebook.com/gennextconsulting",
+            },
+            {
+              name: "Twitter",
               link: "#",
             },
             {
-              name: "Gohackathons",
+              name: "Linkedin",
               link: "#",
             },
-            {
-              name: "Gen-next",
-              link: "#",
-            },
-            {
-              name: "Salesforce",
-              link: "#",
-            },
+           
           ],
         },
+
+       
       ];

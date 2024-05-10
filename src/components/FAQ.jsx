@@ -5,14 +5,14 @@ const FAQ = () => {
     <div>
       <div
     class="relative w-full bg-white px-6  pb-8   ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-full sm:rounded-lg sm:px-10">
-    <div class="mx-auto px-5">
+    <div class="container mx-auto ">
         <div class="flex flex-col items-center">
             <h2 class="mt-5 text-center text-3xl font-medium tracking-tight md:text-4xl">FAQ</h2>
             {/* <p class="mt-3 text-lg text-neutral-500 md:text-xl">Frequenty asked questions
 
             </p> */}
         </div>
-        <div class="mx-auto mt-8 grid max-w-4xl z-0 divide-y divide-neutral-300">
+        <div class="mx-auto mt-8 grid max-w-5xl z-0 divide-y divide-neutral-300">
             <div class="py-3">
                 <details class="group">
                     <summary class="flex cursor-pointer list-none items-center justify-between font-medium">

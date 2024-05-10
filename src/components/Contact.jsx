@@ -83,20 +83,23 @@ const Contact = () => {
               <h2 class="font-heading mb-4 font-bold tracking-tight text-gray-900 dark:text- text-3xl sm:text-4xl">
                 Life is too short for bad software
               </h2>
-              <p class="mx-auto max-w-3xl text-md text-gray-600 dark:text-slate-400">
-                Hope we can help. Lets talk.
-              </p>
+              <p class="mt-3 text-md text-center text-neutral-500 md:text-xl">
+              Hope we can help. Lets talk.
+                </p>
+             
             </div>
           </div>
           <div class="flex items-stretch justify-center">
             <div class="grid md:grid-cols-2">
               <div class="h-full pr-6">
-                <p class="mt-3 mb-12 text-sm text-gray-600 dark:text-gray-700">
-                  Feel free to reach out through contact from or find our
+              <p class="mt-3 mb-12 text-sm text-gray-600 dark:text-gray-700">
+                  Feel free to reach out through contact form or find our
                   contact information below. Your feedback, questions , and
                   suggestions are import to us as we strive to exceptional
                   service to our customers.
                 </p>
+
+                
                 <ul class="mb-6 md:mb-0">
                   <li class="flex">
                     <div class="flex h-10 w-10 items-center justify-center rounded-full bg-blue-500 text-gray-50">
@@ -121,7 +124,8 @@ const Contact = () => {
                         Our address
                       </h3>
                       <p class="text-gray-600 dark:text-gray-700 text-sm">
-                        India Office: F-02, C-23, sector 63, Noida (UP)-201305
+                        India Office: F-02, C-23, sector 63,  <br></br>
+                        Noida (UP)-201305
                       </p>
                     </div>
                   </li>
@@ -177,19 +181,21 @@ const Contact = () => {
                     <div class="ml-4 mb-4">
                       <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-gray-800">
                         Dubai Office :
+                       
                       </h3>
                       <p class="text-gray-600 dark:text-gray-700 text-sm">
                         Trois Con International FZC
                       </p>
                       <p class="text-gray-600 dark:text-gray-700 text-sm">
-                        SAIF Office, R3-07/A , PO Box 8692 Sharjah UAE
+                        SAIF Office, R3-07/A , PO Box 8692 Sharjah UAE <br></br>
+                        Mobile:91 000000000
                       </p>
                     </div>
                   </li>
                 </ul>
               </div>
               <div class="card h-fit max-w-6xl p-5 md:p-12" id="form">
-                <h2 class="mb-4 text-2xl font-bold dark:text-white">
+                <h2 class="mb-4 text-2xl font-bold ">
                   Ready to Get Started?
                 </h2>
                 <form id="contactForm" onSubmit={onSubmit}>
