@@ -1,8 +1,5 @@
 import { Route, Routes } from "react-router-dom"
 import Home from "./Pages/Home"
-// import Contact from "./Pages/Contactus"
-
-// import About from "./Pages/About"
 
 
 function App() {
@@ -28,4 +25,3 @@ function App() {
 }
 
 export default App
-// Aman Bhatt here.

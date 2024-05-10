@@ -7,7 +7,7 @@ const Collaboration = () => {
      
         <div class="row1-container">
     <div class="box box-down cyan">
-      <h2>Supervisor</h2>
+      <h2> Technology Strategy</h2>
       <p>Monitors activity to identify project roadblocks</p>
       <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="" />
     </div>

@@ -5,9 +5,10 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div>
+    
       <footer>
      
-        <div className="bg-white py-4 text-gray-400 ">
+        <div className="bg-white py-4 px-3 text-gray-400 ">
           <div className="container px-4 mx-auto">
             <div className="-mx-4 flex flex-wrap justify-between">
               <div className="px-4 my-4 w-full xl:w-1/5">

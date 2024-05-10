@@ -195,7 +195,7 @@ const Contact = () => {
                 </ul>
               </div>
               <div class="card h-fit max-w-6xl p-5 md:p-12" id="form">
-                <h2 class="mb-4 text-2xl font-bold ">
+                <h2 class="mb-4 text-2xl text-gray-700 font-bold ">
                   Ready to Get Started?
                 </h2>
                 <form id="contactForm" onSubmit={onSubmit}>
