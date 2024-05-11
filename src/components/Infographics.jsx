@@ -19,7 +19,7 @@ const Infographics = () => {
                   deliver remarkable technical solutions to meet business
                   objectives.
                 </p>
-                <div className=" z-0 flex justify-center">
+                <div className=" flex justify-center">
                   <img src="/infographics3.png" className="w-[100%] md:w-[80%]"></img>
                 </div>
               </div>

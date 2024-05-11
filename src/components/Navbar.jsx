@@ -120,7 +120,6 @@
 //           </li>
 //         </ul>
 //         <ul className="text-sm md:bg-gradient-to-r from-blue-500 to-blue-700 py-1.5 rounded-full">
-         
 
 //           <Link
 //             to="https://www.gennextit.com/about"
@@ -281,7 +280,7 @@
 //                 </a>
 //             </nav>
 //               <div className="px-4  py-6">
-               
+
 //                 <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
 //                   Services
 //                 </a>
@@ -304,28 +303,9 @@
 
 // export default Navbar;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-import React, {useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
   // State to manage the navbar's visibility
@@ -344,12 +324,10 @@ const Navbar = () => {
 
   // Array containing navigation items
   const navItems = [
-    { id: 1, text: 'Home', link:'https://www.gennextit.com/' },
-    { id: 2, text: 'Services' , link:'' },
-    { id: 3, text: 'About', link:'https://www.gennextit.com/about' },
-    { id: 4, text: 'Career', link:'https://www.gennextit.com/career' },
-    { id: 5, text: 'training', link:'https://www.gennextit.com/training' },
-    { id: 6, text: 'Contact', link: '' },
+    { id: 2, text: "About", link: "https://www.gennextit.com/about" },
+    { id: 3, text: "Career", link: "https://www.gennextit.com/career" },
+    { id: 4, text: "training", link: "https://www.gennextit.com/training" },
+    { id: 5, text: "Contact", link: "https://www.gennextit.com/contact" },
   ];
 
   const [sticky, setsticky] = useState(false);
@@ -360,175 +338,173 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`bg-blue-300 sm:bg-white px-4 md:px-14 font-serif w-[100%] py-2 text-[#fff] fixed top-0 left-0  flex items-center justify-between z-10 ${
-       sticky
-            ? " bg-blue-300 sm:bg-white z-10 text-gray-600 md:pt-2 shadow-xl"
-            : ""
-        }`}
-      >
-      
+    <div
+      className={`bg-blue-300 sm:bg-white px-4 md:px-14 font-serif w-[100%] py-2 text-[#fff] fixed top-0 left-0  flex items-center justify-between z-10 ${
+        sticky
+          ? " bg-blue-300 sm:bg-white z-10 text-white md:pt-2 shadow-xl"
+          : ""
+      }`}
+    >
       {/* Logo */}
       <a href="https://www.gennextit.com/">
-          <img
-            src={` ${
-              sticky
-                ? "https://gennextit.com/assets/Frontend/logo/Gennextlogoxdarkblue.png"
-                : "https://gennextit.com/assets/Frontend/logo/Gennextlogoxdarkblue.png"
-            }`}
-            alt="image"
-            className="w-[100px] md:w-[150px] "
-          />
-        </a>
+        <img
+          src={` ${
+            sticky
+              ? "https://gennextit.com/assets/Frontend/logo/Gennextlogoxdarkblue.png"
+              : "https://gennextit.com/assets/Frontend/logo/Gennextlogoxdarkblue.png"
+          }`}
+          alt="image"
+          className="w-[100px] md:w-[150px] "
+        />
+      </a>
       <div
-          className=" hidden lg:flex gap-6 font-sans text-blue-700"
-          style={{ fontSize: "17px", fontFamily: "sans-serif" }}
+        className=" hidden lg:flex gap-6 font-sans text-blue-700"
+        style={{ fontSize: "17px", fontFamily: "sans-serif" }}
+      >
+        <p>&#9990; +91-78400 79095 </p>
+        <p>&#9990; +91-120-4994499</p>
+        {/* &#128222; */}
+      </div>
+      {/* // contact us foe mobile view */}
+      <ul className="text-sm md:bg-gradient-to-r from-blue-500 to-blue-700 py-1.5 rounded-full">
+        <li
+          className="inline-block sm:hidden bg-white text-blue-700 mr-[5px] py-1 px-4 rounded-full cursor-pointer"
+          style={{ fontFamily: "sans-serif" }}
         >
-          <p>&#9990; +91-78400 79095 </p>
-          <p>&#9990; +91-120-4994499</p>
-          {/* &#128222; */}
-        </div>
-        {/* // contact us foe mobile view */}
-        <ul className="text-sm md:bg-gradient-to-r from-blue-500 to-blue-700 py-1.5 rounded-full">
-          <li
-            className="inline-block sm:hidden bg-white text-blue-700 mr-[5px] py-1 px-4 rounded-full cursor-pointer"
-            style={{ fontFamily: "sans-serif" }}
-          >
-            Contact us
-          </li>
-        </ul>
+          Contact us
+        </li>
+      </ul>
 
       {/* Desktop Navigation */}
       <ul className="text-sm md:bg-gradient-to-r from-blue-500 to-blue-700 py-1.5 rounded-full">
-         
+        <Link
+          to="https://www.gennextit.com/about"
+          className="hidden md:inline-block hover:bg-blue-500 mx-[5px] py-1 px-4 rounded-full cursor-pointer "
+          style={{ fontFamily: "sans-serif" }}
+        >
+          About us
+        </Link>
+        <Link
+          to="https://www.gennextit.com/career"
+          className="hidden md:inline-block hover:bg-blue-500 mx-[5px] py-1 px-4 rounded-full cursor-pointer "
+          style={{ fontFamily: "sans-serif" }}
+        >
+          Career
+        </Link>
+        <Link
+          to="https://www.gennextit.com/training"
+          className="hidden md:inline-block hover:bg-blue-500 mx-[5px] py-1 px-4 rounded-full cursor-pointer "
+          style={{ fontFamily: "sans-serif" }}
+        >
+          Training
+        </Link>
+        <li
+          className="hidden md:inline-block hover:bg-blue-500 mx-[5px] py-1 px-4 rounded-full cursor-pointe"
+          style={{ transition: "all 0.3s ease 0s", fontFamily: "sans-serif" }}
+        >
+          <a href="#" onClick={toggleMenu}>
+            Services{" "}
+            <span className="ml-1" style={{ fontSize: "9px" }}>
+              &#9660;
+            </span>
+          </a>
+          {isOpen && (
+            <div className="absolute mt-6 bg-white shadow-lg grid grid-cols-4 rounded-md md:right-60 h-[200px] w-[800px]">
+              <div
+                className="grid-cols-3 px-2"
+                style={{ fontFamily: "sans-serif" }}
+              >
+                <p
+                  className=" font-semibold text-gray-700  pb-2"
+                  style={{ fontSize: "15px", fontFamily: "sans-serif" }}
+                >
+                  IT Consultancy
+                </p>
+                <Link
+                  to="https://www.gennextit.com/services/it-advisory"
+                  className="block text-gray-800 pb-2 hover:text-blue-500"
+                >
+                  IT Advisory and Consulting
+                </Link>
+                <Link
+                  to="https://www.gennextit.com/services/it-audits"
+                  className="block text-gray-800 pb-2 hover:text-blue-500"
+                >
+                  IT Audits
+                </Link>
+              </div>
+              <div
+                className="grid-cols-3 px-2"
+                style={{ fontFamily: "sans-serif" }}
+              >
+                <p
+                  className=" font-semibold text-gray-700  pb-2"
+                  style={{ fontSize: "15px", fontFamily: "sans-serif" }}
+                >
+                  Application Development
+                </p>
+                <Link
+                  to="https://www.gennextit.com/services/web-application-development-and-maintenance"
+                  className="block text-gray-800 pb-2 hover:text-blue-500"
+                >
+                  Web Application Development And Maintenance
+                </Link>
+                <Link
+                  to="https://www.gennextit.com/services/mobile-applications"
+                  className="block text-gray-800 pb-2 hover:text-blue-500"
+                >
+                  Mobile Applications
+                </Link>
+                <Link
+                  to="https://www.gennextit.com/services/others"
+                  className="block text-gray-800 pb-2 hover:text-blue-500"
+                >
+                  Others
+                </Link>
+              </div>
+              <div
+                className="grid-cols-3 px-2"
+                style={{ fontFamily: "sans-serif" }}
+              >
+                <p
+                  className=" font-semibold text-gray-700  pb-2"
+                  style={{ fontSize: "15px" }}
+                >
+                  IT & Telecom Training
+                </p>
+              </div>
+              <div
+                className="grid-cols-3 px-2"
+                style={{ fontFamily: "sans-serif" }}
+              >
+                <p
+                  className=" font-semibold text-gray-700  pb-2"
+                  style={{ fontSize: "15px" }}
+                >
+                  Corporate Training
+                </p>
+                <Link
+                  to="https://www.gennextit.com/services/web-development"
+                  className="block text-gray-800 pb-2 hover:text-blue-500"
+                >
+                  Web Development
+                </Link>
+              </div>
+            </div>
+          )}
+        </li>
 
-         <Link
-           to="https://www.gennextit.com/about"
-           className="hidden md:inline-block hover:bg-blue-500 mx-[5px] py-1 px-4 rounded-full cursor-pointer "
-           style={{ fontFamily: "sans-serif" }}
-         >
-           About us
-         </Link>
-         <Link
-           to="https://www.gennextit.com/career"
-           className="hidden md:inline-block hover:bg-blue-500 mx-[5px] py-1 px-4 rounded-full cursor-pointer "
-           style={{ fontFamily: "sans-serif" }}
-         >
-           Career
-         </Link>
-         <Link
-           to="https://www.gennextit.com/training"
-           className="hidden md:inline-block hover:bg-blue-500 mx-[5px] py-1 px-4 rounded-full cursor-pointer "
-           style={{ fontFamily: "sans-serif" }}
-         >
-           Training
-         </Link>
-         <li
-           className="hidden md:inline-block hover:bg-blue-500 mx-[5px] py-1 px-4 rounded-full cursor-pointe"
-           style={{ transition: "all 0.3s ease 0s", fontFamily: "sans-serif" }}
-         >
-           <a href="#" onClick={toggleMenu}>
-             Services{" "}
-             <span className="ml-1" style={{ fontSize: "9px" }}>
-               &#9660;
-             </span>
-           </a>
-           {isOpen && (
-             <div className="absolute mt-6 bg-white shadow-lg grid grid-cols-4 rounded-md md:right-60 h-[200px] w-[800px]">
-               <div
-                 className="grid-cols-3 px-2"
-                 style={{ fontFamily: "sans-serif" }}
-               >
-                 <p
-                   className=" font-semibold text-gray-700  pb-2"
-                   style={{ fontSize: "15px", fontFamily: "sans-serif" }}
-                 >
-                   IT Consultancy
-                 </p>
-                 <Link
-                   to="https://www.gennextit.com/services/it-advisory"
-                   className="block text-gray-800 pb-2 hover:text-blue-500"
-                 >
-                   IT Advisory and Consulting
-                 </Link>
-                 <Link
-                   to="https://www.gennextit.com/services/it-audits"
-                   className="block text-gray-800 pb-2 hover:text-blue-500"
-                 >
-                   IT Audits
-                 </Link>
-               </div>
-               <div
-                 className="grid-cols-3 px-2"
-                 style={{ fontFamily: "sans-serif" }}
-               >
-                 <p
-                   className=" font-semibold text-gray-700  pb-2"
-                   style={{ fontSize: "15px", fontFamily: "sans-serif" }}
-                 >
-                   Application Development
-                 </p>
-                 <Link
-                   to="https://www.gennextit.com/services/web-application-development-and-maintenance"
-                   className="block text-gray-800 pb-2 hover:text-blue-500"
-                 >
-                   Web Application Development And Maintenance
-                 </Link>
-                 <Link
-                   to="https://www.gennextit.com/services/mobile-applications"
-                   className="block text-gray-800 pb-2 hover:text-blue-500"
-                 >
-                   Mobile Applications
-                 </Link>
-                 <Link
-                   to="#"
-                   className="block text-gray-800 pb-2 hover:text-blue-500"
-                 >
-                   Others
-                 </Link>
-               </div>
-               <div
-                 className="grid-cols-3 px-2"
-                 style={{ fontFamily: "sans-serif" }}
-               >
-                 <p
-                   className=" font-semibold text-gray-700  pb-2"
-                   style={{ fontSize: "15px" }}
-                 >
-                   IT & Telecom Training
-                 </p>
-               </div>
-               <div
-                 className="grid-cols-3 px-2"
-                 style={{ fontFamily: "sans-serif" }}
-               >
-                 <p
-                   className=" font-semibold text-gray-700  pb-2"
-                   style={{ fontSize: "15px" }}
-                 >
-                   Corporate Training
-                 </p>
-                 <Link
-                   to="https://www.gennextit.com/services/web-development"
-                   className="block text-gray-800 pb-2 hover:text-blue-500"
-                 >
-                   Web Development
-                 </Link>
-               </div>
-             </div>
-           )}
-         </li>
-
-         <Link
-           to="https://www.gennextit.com/contact"
-           className="hidden md:inline-block bg-white text-blue-700 mr-[5px] py-1 px-4 rounded-full cursor-pointer"
-           style={{ fontFamily: "sans-serif" }}
-         >
-           Contact us
-         </Link>
-       </ul>
+        <Link
+          to="https://www.gennextit.com/contact"
+          className="hidden md:inline-block bg-white text-blue-700 mr-[5px] py-1 px-4 rounded-full cursor-pointer"
+          style={{ fontFamily: "sans-serif" }}
+        >
+          Contact us
+        </Link>
+      </ul>
 
       {/* Mobile Navigation Icon */}
-      <div onClick={handleNav} className='block md:hidden'>
+      <div onClick={handleNav} className="block md:hidden ">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 
@@ -536,24 +512,157 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? 'fixed md:hidden left-0 top-0 w-[85%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
-            : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
+            ? "fixed md:hidden left-0 top-0 w-[85%] h-full border-r z-50 lg:z-0 border-r-gray-700 bg-white ease-in-out duration-500"
+            : "ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]"
         }
       >
-        {/* Mobile Logo */}
-        <a href="https://www.gennextit.com/">
-          <img
-            src="https://gennextit.com/assets/Frontend/logo/Gennextlogoxdarkblue.png"
-      
-            alt="image"
-            className="w-[100px] md:w-[150px] ml-5"
-          />
-        </a>
+        <div className="bg-blue-300 flex items-center">
+          {/* Mobile Logo */}
+          <a
+            href="#"
+            className="block px-4 py-2 text-md text-white hover:bg-gray-100 rounded-md"
+            style={{ fontFamily: "sans-serif" }}
+          >
+            <span>&#127968;</span> Home
+          </a>
+          <a href="https://www.gennextit.com/">
+            <img
+              src="https://gennextit.com/assets/Frontend/logo/Gennextlogoxdarkblue.png"
+              alt="image"
+              className="w-[100px] md:w-[150px] py-3  ml-5"
+            />
+          </a>
+        </div>
+        <p
+          className="text-gray-700 pl-3 text-sm p-2  duration-300 hover:text-black cursor-pointer border-gray-600"
+          style={{ fontFamily: "sans-serif" }}
+        >
+          services
+        </p>
+        <div
+          className=" flex flex-col text-white text-sm"
+          style={{ fontFamily: "sans-serif" }}
+        >
+         
+          
+            <details class="group  border-b ">
+              <summary class="flex cursor-pointer bg-blue-300 list-none items-center justify-between font-medium">
+                <span className="text-md  p-1 pl-6">IT Consultancy</span>
+                <span class="transition group-open:rotate-180">
+                  <svg
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <Link
+                to="https://www.gennextit.com/services/it-advisory"
+                className="pl-9 p-1 flex text-sm flex-row text-gray-600 bg-white border-b  duration-300 hover:text-black cursor-pointer border-gray-300"
+                style={{ fontFamily: "sans-serif" }}
+              >
+                IT Advisory and Consulting
+              </Link>
+              <Link
+                to="https://www.gennextit.com/services/it-audits"
+                className="pl-9 p-1 flex text-sm flex-row text-gray-600 bg-white border-b   duration-300 hover:text-black cursor-pointer border-gray-300"
+                style={{ fontFamily: "sans-serif" }}
+              >
+                 IT Audits
+              </Link>
+            </details>
+         
+         
+            <details class="group  border-b ">
+              <summary class="flex cursor-pointer bg-blue-300 list-none items-center justify-between font-medium">
+                <span className="text-md  p-1 pl-6">Application Development</span>
+                <span class="transition group-open:rotate-180">
+                  <svg
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <Link
+                to="https://www.gennextit.com/services/web-application-development-and-maintenance"
+                className="pl-9 p-1 flex text-sm flex-row text-gray-600 bg-white border-b  duration-300 hover:text-black cursor-pointer border-gray-300"
+                style={{ fontFamily: "sans-serif" }}
+              >
+                Web Application Development And Maintenance
+              </Link>
+              <Link
+                to="https://www.gennextit.com/services/mobile-applications"
+                className="pl-9 p-1 flex text-sm flex-row text-gray-600 bg-white border-b   duration-300 hover:text-black cursor-pointer border-gray-300"
+                style={{ fontFamily: "sans-serif" }}
+              >
+                 Mobile Applications
+
+              </Link>
+              <Link
+                to="https://www.gennextit.com/services/others"
+                className="pl-9 p-1 flex text-sm flex-row text-gray-600 bg-white border-b   duration-300 hover:text-black cursor-pointer border-gray-300"
+                style={{ fontFamily: "sans-serif" }}
+              >
+                Others
+              </Link>
+            </details>
+         
+            <details class="group  border-b ">
+              <summary class="flex cursor-pointer bg-blue-300 list-none items-center justify-between font-medium">
+                <span className="text-md  p-1 pl-6">Corporate Training</span>
+                <span class="transition group-open:rotate-180">
+                  <svg
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <Link
+                to="https://www.gennextit.com/services/web-development"
+                className="pl-9 p-1 flex text-sm flex-row text-gray-600 bg-white border-b  duration-300 hover:text-black cursor-pointer border-gray-300"
+                style={{ fontFamily: "sans-serif" }}
+              >
+                
+                Web Development           
+                   </Link>
+             
+            </details>
+          
+        </div>
+
         {/* Mobile Navigation Items */}
-        {navItems.map(item => (
-          <Link to={item.link}
+        {navItems.map((item) => (
+          <Link
+            to={item.link}
             key={item.id}
-            className='p-4 flex flex-row  border-b rounded-xl hover:bg-[#1600df] duration-300 hover:text-black cursor-pointer border-gray-600'
+            className="pl-3 p-2 flex text-sm flex-row text-gray-600  border-b rounded-sm  duration-300 hover:text-black cursor-pointer border-gray-400"
+            style={{ fontFamily: "sans-serif" }}
           >
             {item.text}
           </Link>
