@@ -9,7 +9,7 @@ const Infographics = () => {
             <div class="">
               <div class="flex flex-col items-center">
                 <h2 class="md:mt-5 text-center text-3xl font-medium tracking-tight md:text-4xl">
-                  Hire CTO Consulting Services Tailored for Startups and
+                  Hire CTO Consulting Services Tailored for <br></br> Startups and
                   Enterprises
                 </h2>
                 <p class="mt-3 text-xl font-sans text-center text-gray-700 lg:text-neutral-600 md:text-xl">

@@ -32,7 +32,7 @@ const Home = () => {
       {/* <Collaboration /> */}
 
       <FAQ />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   );

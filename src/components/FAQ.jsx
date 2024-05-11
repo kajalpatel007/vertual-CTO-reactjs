@@ -4,7 +4,7 @@ const FAQ = () => {
   return (
     <div>
       <div
-    class="relative w-full bg-white px-6  pb-8  ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-full sm:rounded-lg sm:px-10">
+    class="relative w-full bg-white px-6 pb-36 ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-full sm:rounded-lg sm:px-10">
     <div class="container mx-auto ">
         <div class="flex flex-col items-center">
             <h2 class="mt-5 text-center text-3xl font-medium tracking-tight md:text-4xl">FAQ</h2>
@@ -16,7 +16,7 @@ const FAQ = () => {
             <div class="py-3">
                 <details class="group">
                     <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span className='text-sm'>What is virtual cto?</span>
+                        <span className='text-md'>What is virtual cto?</span>
                         <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision"
                                     stroke="gray" stroke-linecap="round" stroke-linejoin="round"
@@ -32,7 +32,7 @@ const FAQ = () => {
             <div class="py-3">
                 <details class="group">
                     <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span className='text-sm'>what are the uses of virtual CTO ?</span>
+                        <span className='text-md'>what are the uses of virtual CTO ?</span>
                         <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision"
                                     stroke="gray" stroke-linecap="round" stroke-linejoin="round"
@@ -48,7 +48,7 @@ const FAQ = () => {
             <div class="py-3">
                 <details class="group">
                     <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span className='text-sm'> Will this role also help modernizing and transforming organization app infrastructure?</span>
+                        <span className='text-md'> Will this role also help modernizing and transforming organization app infrastructure?</span>
                         <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision"
                                     stroke="gray" stroke-linecap="round" stroke-linejoin="round"
@@ -64,7 +64,7 @@ const FAQ = () => {
             <div class="py-3">
                 <details class="group">
                     <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span className='text-sm'> what kind of profiles do you have for Virtual CTO?</span>
+                        <span className='text-md'> what kind of profiles do you have for Virtual CTO?</span>
                         <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision"
                                     stroke="gray" stroke-linecap="round" stroke-linejoin="round"
@@ -80,7 +80,7 @@ const FAQ = () => {
             <div class="py-3">
                 <details class="group">
                     <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span className='text-sm'> How do I contact support?</span>
+                        <span className='text-md'> How do I contact support?</span>
                         <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision"
                                     stroke="gray" stroke-linecap="round" stroke-linejoin="round"
@@ -98,7 +98,7 @@ const FAQ = () => {
             <div class="py-3">
                 <details class="group">
                     <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span className='text-sm'> Do you offer any discounts or promotions?</span>
+                        <span className='text-md'> Do you offer any discounts or promotions?</span>
                         <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision"
                                     stroke="gray" stroke-linecap="round" stroke-linejoin="round"

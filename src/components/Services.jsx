@@ -3,13 +3,13 @@ import React from "react";
 const Services = () => {
   return (
     <>
-      <section class="mt-5">
+      <section class="mt-5" style={{fontFamily:'sans-serif'}}>
         <div class="mx-auto max-w-6xl px-2 sm:px-6 sm:py-0">
           <div class="relative w-full  px-6  pb-5 ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-full sm:rounded-lg sm:px-10">
             <div class=" ">
               <div class="flex flex-col items-center">
                 <h2 class="mt-5 text-center text-3xl font-medium tracking-tight md:text-4xl">
-                  Best-in-Class CTO as a Services Offering for Startups in India
+                  Best-in-Class CTO as a Services Offerings
                 </h2>
                 <p class="mt-3 text-xl font-sans text-center text-gray-700 lg:text-neutral-600 md:text-xl">
                   Starting from exclusive strategy planning to hassle-free
@@ -19,8 +19,8 @@ const Services = () => {
                   Technology Officer that steers your product towards success.
                 </p>
 
-                <div className="grid grid-cols-1 sm:grid-cols-3  mt-10">
-                  <div class="md:border-r md:border-b border-gray-300 md:pr-6 py-4  md:py-8 ">
+                <div className="grid grid-cols-1 sm:grid-cols-3  mt-10" >
+                  <div class=" md:pr-6 py-4  md:py-8 " style={{border:'1px solid blue', borderRadius:'10px', padding:'30px', margin:'2px'}}>
                     <div class="inline-flex justify-center items-center gap-5 select-none text-black">
                       <img
                         src="https://www.checkmateq.com/images/vc-icon1.png"
@@ -62,7 +62,7 @@ const Services = () => {
                       modernization efforts.
                     </p>
                   </div>
-                  <div class="md:border-r  border-t border-b sm:border-t-0  border-gray-300 md:px-6 py-10 md:py-8 ">
+                  <div class="  border-t border-b  border-gray-300 md:px-6 py-10 md:py-8 " style={{border:'1px solid blue', borderRadius:'10px', padding:'30px', margin:'2px'}}>
                     <div class="inline-flex justify-center items-center gap-5 select-none text-black">
                       <img
                         src="https://www.checkmateq.com/images/pd-icon14.png"
@@ -103,7 +103,7 @@ const Services = () => {
                       allocation to optimize team efficiency and output.{" "}
                     </p>
                   </div>
-                  <div class="md:border-b border-gray-300 md:pl-6 py-4 md:pt-8 ">
+                  <div class=" md:pl-6 py-4 md:pt-8 " style={{border:'1px solid blue', borderRadius:'10px', padding:'30px', margin:'2px'}}>
                     <div class="inline-flex justify-center items-center gap-5 select-none text-black">
                       <img
                         src="https://www.checkmateq.com/images/pd-icon15.png"
@@ -147,7 +147,7 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3">
-                  <div class="md:border-r  border-gray-300 md:pr-6 py-4  md:pt-8 ">
+                  <div class="md:border-r  border-gray-300 md:pr-6 py-4  md:pt-8 " style={{border:'1px solid blue', borderRadius:'10px', padding:'30px', margin:'2px'}}>
                     <div class="inline-flex justify-center items-center gap-5 select-none text-black">
                       <img
                         src="https://www.checkmateq.com/images/vc-icon3.png"
@@ -190,7 +190,7 @@ const Services = () => {
                       uptime.
                     </p>
                   </div>
-                  <div class="md:border-r  border-t border-b sm:border-t-0 sm:border-b-0 border-gray-300 md:px-6 py-10 md:pt-8 ">
+                  <div class="  border-t border-b  border-gray-300 md:px-6 py-10 md:pt-8 " style={{border:'1px solid blue', borderRadius:'10px', padding:'30px', margin:'2px'}}>
                     <div class="inline-flex justify-center items-center gap-5 select-none text-black">
                       <img
                         src="https://www.checkmateq.com/images/vc-icon4.png"
@@ -226,7 +226,7 @@ const Services = () => {
                       ensuring the collection and quality of data.
                     </p>
                   </div>
-                  <div class=" md:pl-6 py-4 md:py-0 md:pt-8 ">
+                  <div class=" md:pl-6 py-4 md:py-0 md:pt-8 " style={{border:'1px solid blue', borderRadius:'10px', padding:'30px', margin:'2px'}}>
                     <div class="inline-flex justify-center items-center gap-5 select-none text-black">
                       <img
                         src="https://www.checkmateq.com/images/pd-icon15.png"

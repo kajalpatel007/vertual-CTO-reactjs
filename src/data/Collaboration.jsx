@@ -114,11 +114,11 @@ export let CollaborationData=[
             },
             {
               name: "Twitter",
-              link: "#",
+              link: "https://twitter.com/gennext_it",
             },
             {
               name: "Linkedin",
-              link: "#",
+              link: "https://www.linkedin.com/company/gennext-it-solutions/about/",
             },
            
           ],

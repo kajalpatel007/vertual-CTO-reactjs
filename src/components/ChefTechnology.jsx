@@ -9,8 +9,7 @@ const ChefTechnology = () => {
             <div class="  ">
               <div class="flex flex-col items-center">
                 <h2 class="md:mt-5 text-center text-3xl font-medium tracking-tight md:text-4xl">
-                  Chief Technology Officer as a Services Engagement Model for
-                  You
+                 CTOaaS Engagement Model for You
                 </h2>
                 <p class="mt-3 text-md md:px-20 text-center text-neutral-500 md:text-xl">
                   Our on-demand CTO takes full ownership of technology strategy,

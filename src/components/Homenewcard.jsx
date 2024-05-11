@@ -12,7 +12,7 @@ const Homenewcard = () => {
             <div class=" grid gap-14 md:grid-cols-3 md:gap-5">
               <div class="rounded-lg border-t-2 border-blue-600 bg-white p-6 text-center shadow-xl">
               <div class="mx-auto flex h-16 w-16 -translate-y-12  transform  items-center justify-center rounded-full shadow-lg bg-white p-3 shadow-gray-500/40">
-                <img src="/public/technologr_strategy.jpeg" className=" rounded-full"></img>
+                <img src="/technologr_strategy.jpeg" className=" rounded-full"></img>
 
 
                 </div>
@@ -31,7 +31,7 @@ const Homenewcard = () => {
                 class="rounded-lg bg-white border-t-2 border-blue-600 p-6 text-center shadow-xl"
               >
                 <div class="mx-auto flex h-16 w-16  -translate-y-12 transform items-center justify-center rounded-full shadow-lg bg-white p-3 shadow-gray-500/40">
-                <img src="/public/technology.jpeg" className=" rounded-full"></img>
+                <img src="/technology.jpeg" className=" rounded-full"></img>
 
                 </div>
                 <h1 class="text-darken mb-3 text-xl font-medium lg:px-14 ">
@@ -50,7 +50,7 @@ const Homenewcard = () => {
                 class="rounded-lg bg-white border-t-2 border-blue-600 p-6 text-center shadow-xl"
               >
               <div class="mx-auto flex h-16 w-16 -translate-y-12 transform  items-center justify-center rounded-full shadow-lg bg-white p-3 shadow-gray-500/40">
-                <img src="/public/technologr_strategy.jpeg" className=" rounded-full"></img>
+                <img src="/technologr_strategy.jpeg" className=" rounded-full"></img>
 
                 </div>
                 <h1 class="text-darken mb-3 pt-3 text-xl font-medium lg:h-14 lg:px-14">

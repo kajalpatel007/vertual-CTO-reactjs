@@ -361,8 +361,8 @@ const Navbar = () => {
         className=" hidden lg:flex gap-6 font-sans text-blue-700"
         style={{ fontSize: "17px", fontFamily: "sans-serif" }}
       >
+        <p>&#9990; +91-98999-69498</p>
         <p>&#9990; +91-78400 79095 </p>
-        <p>&#9990; +91-120-4994499</p>
         {/* &#128222; */}
       </div>
       {/* // contact us foe mobile view */}
