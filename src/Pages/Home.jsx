@@ -4,7 +4,6 @@ import Hero from "../components/Hero";
 import Testimonial from "../components/Testimonial";
 import FAQ from "../components/FAQ";
 import Contact from "../components/Contact";
-import Collaboration from "../components/Collaboration";
 import Footer from "../components/Footer";
 import Challengescard from "../components/Challengescard";
 import Weoffer from "../components/Weoffer";
@@ -29,7 +28,6 @@ const Home = () => {
       <Testimonial />
       <CTA />
       <ChefTechnology />
-      {/* <Collaboration /> */}
 
       <FAQ />
       {/* <Contact /> */}
