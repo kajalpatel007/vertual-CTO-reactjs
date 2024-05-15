@@ -518,20 +518,20 @@ const Navbar = () => {
       >
         <div className="bg-blue-300 flex items-center">
           {/* Mobile Logo */}
-          <a
-            href="#"
+          <Link
+            to="https://www.gennextit.com/"
             className="block px-4 py-2 text-md text-white hover:bg-gray-100 rounded-md"
             style={{ fontFamily: "sans-serif" }}
           >
             <span>&#127968;</span> Home
-          </a>
-          <a href="https://www.gennextit.com/">
+          </Link>
+          <Link to="https://www.gennextit.com/">
             <img
               src="https://gennextit.com/assets/Frontend/logo/Gennextlogoxdarkblue.png"
               alt="image"
               className="w-[100px] md:w-[150px] py-3  ml-5"
             />
-          </a>
+          </Link>
         </div>
         <p
           className="text-gray-700 pl-3 text-sm p-2  duration-300 hover:text-black cursor-pointer border-gray-600"

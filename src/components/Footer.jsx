@@ -69,8 +69,8 @@ function Footer() {
                 </div>
                 <div className=" text-sm text-gray-500">
                   <p>&#9990; +91-78400-79095 </p>
-                  <p>&#9990; +91-120-4994499</p>
-                  <p className="pb-2">&#9990; info@gennextit.com</p>
+                  <p>&#9990; +91-98999-69498</p>
+                  <p className="pb-2">&#9993; info@gennextit.com</p>
                   <p className="text-gray-800 font-medium">Dubai contact</p>
 
                   <p>&#9990; +91-120-4994499</p>

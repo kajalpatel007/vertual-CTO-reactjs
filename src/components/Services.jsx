@@ -20,7 +20,7 @@ const Services = () => {
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-3  mt-10" >
-                  <div class=" md:pr-6 py-4  md:py-8 " style={{border:'1px solid blue', borderRadius:'10px', padding:'30px', margin:'2px'}}>
+                  <div class=" md:pr-6 py-4 md:border md:p-7 md:border-blue-600 md:rounded-lg md:m-[2px] md:py-8 " >
                     <div class="inline-flex justify-center items-center gap-5 select-none text-black">
                       <img
                         src="https://www.checkmateq.com/images/vc-icon1.png"
@@ -57,12 +57,11 @@ const Services = () => {
                     >
                       These include establishing a strategic technology roadmap,
                       aligning technology with business goals, devising
-                      technology transformation strategies, managing technology
-                      costs effectively, and facilitating technology
-                      modernization efforts.
+                      technology transformation strategies,and managing technology
+                      costs effectively.
                     </p>
                   </div>
-                  <div class="  border-t border-b  border-gray-300 md:px-6 py-10 md:py-8 " style={{border:'1px solid blue', borderRadius:'10px', padding:'30px', margin:'2px'}}>
+                  <div class="  border-t border-b  border-gray-300 md:border md:rounded-lg md:p-7 md:border-blue-600 md:m-[2px] md:px-6 py-10 md:py-8 ">
                     <div class="inline-flex justify-center items-center gap-5 select-none text-black">
                       <img
                         src="https://www.checkmateq.com/images/pd-icon14.png"
@@ -103,7 +102,7 @@ const Services = () => {
                       allocation to optimize team efficiency and output.{" "}
                     </p>
                   </div>
-                  <div class=" md:pl-6 py-4 md:pt-8 " style={{border:'1px solid blue', borderRadius:'10px', padding:'30px', margin:'2px'}}>
+                  <div class=" md:pl-6 py-4 md:pt-8 md:border md:rounded-lg md:p-7 md:border-blue-600 md:m-[2px] ">
                     <div class="inline-flex justify-center items-center gap-5 select-none text-black">
                       <img
                         src="https://www.checkmateq.com/images/pd-icon15.png"
@@ -140,14 +139,12 @@ const Services = () => {
                       style={{ fontSize: "15px", fontFamily: "sans-serif" }}
                     >
                       Additionally, we specialize in Agile transformation and
-                      coaching to streamline processes further. Moreover, we
-                      provide comprehensive technology support and maintenance,
-                      ensuring seamless operations.
+                      coaching to streamline processes further. 
                     </p>
                   </div>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3">
-                  <div class="md:border-r  border-gray-300 md:pr-6 py-4  md:pt-8 " style={{border:'1px solid blue', borderRadius:'10px', padding:'30px', margin:'2px'}}>
+                  <div class=" border-t border-b  border-gray-300 md:border md:rounded-lg md:p-7 md:border-blue-600 md:m-[2px] py-10 ">
                     <div class="inline-flex justify-center items-center gap-5 select-none text-black">
                       <img
                         src="https://www.checkmateq.com/images/vc-icon3.png"
@@ -180,17 +177,9 @@ const Services = () => {
                       cloud migrations, incident management, and the provision
                       of cloud-based solutions.
                     </p>
-                    <br></br>
-                    <p
-                      class="sm:mt-1 block text-justify sm:text-base  pb-2 sm:pb-0 text-gray-700"
-                      style={{ fontSize: "15px", fontFamily: "sans-serif" }}
-                    >
-                      Our meticulously optimized approach to cloud DevOps
-                      infrastructure management guarantees high production
-                      uptime.
-                    </p>
+                    
                   </div>
-                  <div class="  border-t border-b  border-gray-300 md:px-6 py-10 md:pt-8 " style={{border:'1px solid blue', borderRadius:'10px', padding:'30px', margin:'2px'}}>
+                  <div class="  md:border md:rounded-lg md:p-7 md:border-blue-600 md:m-[2px] md:px-6 py-10 md:pt-8 ">
                     <div class="inline-flex justify-center items-center gap-5 select-none text-black">
                       <img
                         src="https://www.checkmateq.com/images/vc-icon4.png"
@@ -221,12 +210,12 @@ const Services = () => {
                     >
                       Our services encompass various facets crucial for success,
                       including business model innovation, talent acquisition
-                      and training, monitoring and maintenance, as well as
+                      and training, as well as
                       prioritizing data privacy and security, along with
                       ensuring the collection and quality of data.
                     </p>
                   </div>
-                  <div class=" md:pl-6 py-4 md:py-0 md:pt-8 " style={{border:'1px solid blue', borderRadius:'10px', padding:'30px', margin:'2px'}}>
+                  <div class=" border-t  border-gray-300 md:border md:rounded-lg md:p-7 md:border-blue-600 md:m-[2px] md:pl-6 py-4 md:py-0 md:pt-8 " >
                     <div class="inline-flex justify-center items-center gap-5 select-none text-black">
                       <img
                         src="https://www.checkmateq.com/images/pd-icon15.png"
@@ -263,9 +252,7 @@ const Services = () => {
                     >
                       Engage top-tier virtual CTO services in India to
                       streamline resource allocation and foster technical
-                      innovation within your project. Additionally, our Virtual
-                      CTO aids in implementing cloud cost management strategies,
-                      optimizing resource allocation for enhanced efficiency.
+                      innovation within your project. 
                     </p>
                   </div>
                 </div>
