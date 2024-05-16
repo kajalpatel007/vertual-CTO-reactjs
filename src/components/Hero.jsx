@@ -50,7 +50,7 @@ In the era of Gen AI, AI, machine learning, and the Data Science are becoming in
           </div>
         </div>
       </div>
-      <a href="https://wa.me/919584477828">
+      <a href="https://wa.me/911204994499">
       <img
           src="https://pngimg.com/uploads/whatsapp/whatsapp_PNG17.png"
           className="w-[45px] z-50 md:w-[55px] animate-bounce focus:animate-none hover:animate-none shadow-xl rounded-full fixed bottom-7 right-7 "

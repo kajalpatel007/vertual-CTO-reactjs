@@ -361,11 +361,11 @@ const Navbar = () => {
         className=" hidden lg:flex gap-6 font-sans text-blue-700"
         style={{ fontSize: "17px", fontFamily: "sans-serif" }}
       >
-        <p>&#9990; +91-98999-69498</p>
-        <p>&#9990; +91-78400 79095 </p>
+        <a href="tel:+91-78400-79095">&#9990; +91-78400-79095 </a><br></br>
+        <a href="tel:+91-98999-69498">&#9990; +91-120-4994499</a><br></br>
         {/* &#128222; */}
       </div>
-      {/* // contact us foe mobile view */}
+      {/* contact us for mobile view */}
       <ul className="text-sm md:bg-gradient-to-r from-blue-500 to-blue-700 py-1.5 rounded-full">
         <li
           className="inline-block sm:hidden bg-white text-blue-700 mr-[5px] py-1 px-4 rounded-full cursor-pointer"

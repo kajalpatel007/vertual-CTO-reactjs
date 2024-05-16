@@ -16,7 +16,7 @@ const FAQ = () => {
             <div class="py-3">
                 <details class="group">
                     <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span className='text-md'>What is virtual cto?</span>
+                        <span className='text-md'>What is Virtual CTO?</span>
                         <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision"
                                     stroke="gray" stroke-linecap="round" stroke-linejoin="round"
@@ -32,7 +32,7 @@ const FAQ = () => {
             <div class="py-3">
                 <details class="group">
                     <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span className='text-md'>what are the uses of virtual CTO ?</span>
+                        <span className='text-md'>What are the uses of Virtual CTO ?</span>
                         <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision"
                                     stroke="gray" stroke-linecap="round" stroke-linejoin="round"
@@ -57,14 +57,14 @@ const FAQ = () => {
                                 </svg>
                             </span>
                     </summary>
-                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">yes
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">Yes, this role also help modernizing and transforming organization app infrastructure
                     </p>
                 </details>
             </div>
             <div class="py-3">
                 <details class="group">
                     <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span className='text-md'> what kind of profiles do you have for Virtual CTO?</span>
+                        <span className='text-md'> What kind of profiles do you have for Virtual CTO?</span>
                         <span class="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision"
                                     stroke="gray" stroke-linecap="round" stroke-linejoin="round"
@@ -73,7 +73,7 @@ const FAQ = () => {
                                 </svg>
                             </span>
                     </summary>
-                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">We have very seno+ior seasoned professionals who arfe coming with huge expereince in this field and can show 100% commitment in delivering successful results.
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">We have very senior seasoned professionals who arfe coming with huge expereince in this field and can show 100% commitment in delivering successful results.
                     </p>
                 </details>
             </div>
