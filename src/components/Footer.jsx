@@ -69,11 +69,11 @@ function Footer() {
                 </div>
                 <div className=" text-sm text-gray-500">
                   <a href="tel:+91-78400-79095" className="hover:text-blue-700">&#9990; +91-78400-79095 </a><br></br>
-                  <a href="tel:+91-98999-69498" className="hover:text-blue-700">&#9990; +91-98999-69498</a><br></br>
+                  <a href="tel:+91-98999-69498" className="hover:text-blue-700">&#9990;  +91-120-4994499</a><br></br>
                   <a href="mailto: info@gennextit.com" className="pb-2 hover:text-blue-700">&#9993; info@gennextit.com</a>
                   <p className="text-gray-800 font-medium">Dubai contact</p>
 
-                  <a href="tel:+91-120-4994499" className="hover:text-blue-700">&#9990; +91-120-4994499</a>
+                  <a href="tel:+91-120-4994499" className="hover:text-blue-700">&#9990; +91-120-4994499</a><br></br>
                   <a href="tel:+91-120-4994499" className="hover:text-blue-700">&#9990; +91-120-4994499</a>
                 </div>
               </div>

@@ -496,7 +496,7 @@ const Navbar = () => {
 
         <Link
           to="https://www.gennextit.com/contact"
-          className="hidden md:inline-block bg-white text-blue-700 mr-[5px] py-1 px-4 rounded-full cursor-pointer"
+          className="hidden md:inline-block bg-white text-[#004f9e] mr-[5px] py-2 px-4 rounded-full cursor-pointer"
           style={{ fontFamily: "sans-serif" }}
         >
           Contact us
