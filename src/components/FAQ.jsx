@@ -91,7 +91,7 @@ const FAQ = () => {
                     </summary>
                     <p class="group-open:animate-fadeIn mt-3 text-neutral-600">If you need help with our platform or
                         have any other questions, you can contact the company's support team by submitting a support
-                        request through the website or by emailing  <span><a href="mailto: info@gennextit.com" className="pb-2 text-blue-700"> info@gennextit.com </a></span>. 
+                        request through the website or by emailing  <span><a href="mailto: info@gennextit.com" className="pb-2 text-blue-700"> info@gennextit.com </a></span>
 
                     </p>
                 </details>
@@ -108,8 +108,7 @@ const FAQ = () => {
                                 </svg>
                             </span>
                     </summary>
-                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">We may offer discounts or promotions
-                        from time to time. To stay up-to-date on the latest deals and special offers.
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">If you need help with our platform or have any other questions, you can contact at <span><a href="mailto: info@gennextit.com" className="pb-2 text-blue-700"> info@gennextit.com </a></span>
                     </p>
                 </details>
             </div>
